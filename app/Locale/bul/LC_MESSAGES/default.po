@@ -1,0 +1,1990 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-06-11 08:38+0000\n"
+"PO-Revision-Date: 2015-06-11 09:40-0000\n"
+"Last-Translator: Ciaran <ciaran@ohdigital.co.uk>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: Controller/AppController.php:63
+msgid "Sorry, you're not allowed to do that."
+msgstr ""
+
+#: Controller/CategoriesController.php:29;69;103
+msgid "Invalid category"
+msgstr ""
+
+#: Controller/CategoriesController.php:46;73
+msgid "The category has been saved"
+msgstr ""
+
+#: Controller/CategoriesController.php:49;76
+msgid "The category could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CategoriesController.php:107
+msgid "Category deleted"
+msgstr ""
+
+#: Controller/CategoriesController.php:110
+msgid "Category was not deleted"
+msgstr ""
+
+#: Controller/ConditionsController.php:29;67;99
+msgid "Invalid condition"
+msgstr ""
+
+#: Controller/ConditionsController.php:46;71
+msgid "The condition has been saved"
+msgstr ""
+
+#: Controller/ConditionsController.php:49;74
+msgid "The condition could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ConditionsController.php:103
+msgid "Condition deleted"
+msgstr ""
+
+#: Controller/ConditionsController.php:106
+msgid "Condition was not deleted"
+msgstr ""
+
+#: Controller/ContactsController.php:16
+msgid "Contact Us"
+msgstr ""
+
+#: Controller/ContactsController.php:25
+msgid "We have received your message and will get back to you shortly."
+msgstr ""
+
+#: Controller/ContactsController.php:35
+msgid "Please check the form fields for any errors"
+msgstr ""
+
+#: Controller/ContactsController.php:81;113;138
+msgid "Invalid contact"
+msgstr ""
+
+#: Controller/ContactsController.php:96;117
+msgid "The contact has been saved"
+msgstr ""
+
+#: Controller/ContactsController.php:99;120
+msgid "The contact could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ContactsController.php:142
+msgid "Contact deleted"
+msgstr ""
+
+#: Controller/ContactsController.php:145
+msgid "Contact was not deleted"
+msgstr ""
+
+#: Controller/FavouritesController.php:14;60
+msgid "You need to be logged in to favourite items"
+msgstr ""
+
+#: Controller/FavouritesController.php:50
+msgid "Thanks! The item has been added to your favourites."
+msgstr ""
+
+#: Controller/FavouritesController.php:51
+msgid "Sorry, we couldn't process that request. Please try again later."
+msgstr ""
+
+#: Controller/FavouritesController.php:83
+msgid "Thanks! The item has been removed from your favourites."
+msgstr ""
+
+#: Controller/FavouritesController.php:84
+msgid ""
+"Sorry, we couldn't find that favourite or an error occurred. Please try "
+"again later."
+msgstr ""
+
+#: Controller/FavouritesController.php:110;145;173
+msgid "Invalid favourite"
+msgstr ""
+
+#: Controller/FavouritesController.php:125;149
+msgid "The favourite has been saved"
+msgstr ""
+
+#: Controller/FavouritesController.php:128;152
+msgid "The favourite could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/FavouritesController.php:177
+msgid "Favourite deleted"
+msgstr ""
+
+#: Controller/FavouritesController.php:180
+msgid "Favourite was not deleted"
+msgstr ""
+
+#: Controller/NetworkCategoriesController.php:37;77;111
+msgid "Invalid network category"
+msgstr ""
+
+#: Controller/NetworkCategoriesController.php:54;81
+msgid "The network category has been saved."
+msgstr ""
+
+#: Controller/NetworkCategoriesController.php:57;84
+msgid "The network category could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/NetworkCategoriesController.php:115
+msgid "The network category has been deleted."
+msgstr ""
+
+#: Controller/NetworkCategoriesController.php:117
+msgid "The network category could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/NetworkMembersController.php:37;75;106
+msgid "Invalid network member"
+msgstr ""
+
+#: Controller/NetworkMembersController.php:52;79
+msgid "The network member has been saved."
+msgstr ""
+
+#: Controller/NetworkMembersController.php:55;82
+msgid "The network member could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/NetworkMembersController.php:110
+msgid "The network member has been deleted."
+msgstr ""
+
+#: Controller/NetworkMembersController.php:112
+msgid "The network member could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/NetworkTypesController.php:32;58;92;122
+msgid "Invalid network type"
+msgstr ""
+
+#: Controller/NetworkTypesController.php:74;96
+msgid "The network type has been saved."
+msgstr ""
+
+#: Controller/NetworkTypesController.php:77;99
+msgid "The network type could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/NetworkTypesController.php:126
+msgid "The network type has been deleted."
+msgstr ""
+
+#: Controller/NetworkTypesController.php:128
+msgid "The network type could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/PagesController.php:29
+msgid "404 - Page Not Found"
+msgstr ""
+
+#: Controller/PagesController.php:67;101;131
+msgid "Invalid page"
+msgstr ""
+
+#: Controller/PagesController.php:82;105
+msgid "The page has been saved"
+msgstr ""
+
+#: Controller/PagesController.php:85;108
+msgid "The page could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PagesController.php:135
+msgid "Page deleted"
+msgstr ""
+
+#: Controller/PagesController.php:138
+msgid "Page was not deleted"
+msgstr ""
+
+#: Controller/ResponsesController.php:392;682
+msgid ""
+"Your customised map is below. Your account information will arrive via email "
+"- please check your junk mail folder if you don't see it. "
+msgstr ""
+
+#: Controller/ResponsesController.php:394;684
+msgid "Your responses have been saved. "
+msgstr ""
+
+#: Controller/ResponsesController.php:691
+msgid ""
+"Please check your entry below - some fields aren't right yet. Don't worry, "
+"we've kept all your answers."
+msgstr ""
+
+#: Controller/ResponsesController.php:747
+msgid ""
+"Please fill in the questionnaire to get your personalised network feedback."
+msgstr ""
+
+#: Controller/ResponsesController.php:822
+msgid "Your details have been updated."
+msgstr ""
+
+#: Controller/ResponsesController.php:948;985;1012
+msgid "Invalid response"
+msgstr ""
+
+#: Controller/ResponsesController.php:966;989
+msgid "The response has been saved"
+msgstr ""
+
+#: Controller/ResponsesController.php:969;992
+msgid "The response could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ResponsesController.php:1016
+msgid "Response deleted"
+msgstr ""
+
+#: Controller/ResponsesController.php:1019
+msgid "Response was not deleted"
+msgstr ""
+
+#: Controller/ServicesController.php:119
+msgid ""
+"You have not answered yes to any survey questions. To get your personalised "
+"map you must answer yes to some questions"
+msgstr ""
+
+#: Controller/ServicesController.php:122
+msgid "Please fill in the questionnaire to get your personalised map."
+msgstr ""
+
+#: Controller/ServicesController.php:165
+msgid "Please log in to view favourites."
+msgstr ""
+
+#: Controller/ServicesController.php:980;1155
+msgid "Invalid service"
+msgstr ""
+
+#: Controller/ServicesController.php:1021;1075
+msgid "The service has been saved"
+msgstr ""
+
+#: Controller/ServicesController.php:1038;1120
+msgid "The service could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ServicesController.php:1067
+msgid "Service does not exist"
+msgstr ""
+
+#: Controller/ServicesController.php:1135
+msgid "You're not allowed to edit that service."
+msgstr ""
+
+#: Controller/ServicesController.php:1167
+msgid "You're not allowed to delete that service."
+msgstr ""
+
+#: Controller/ServicesController.php:1195
+msgid "Service deleted"
+msgstr ""
+
+#: Controller/ServicesController.php:1198
+msgid "Service was not deleted"
+msgstr ""
+
+#: Controller/ServicesController.php:1205
+msgid "Service has been undeleted."
+msgstr ""
+
+#: Controller/ServicesController.php:1212
+msgid "Cannot undelete this service."
+msgstr ""
+
+#: Controller/StatementsController.php:29;67;98
+msgid "Invalid statement"
+msgstr ""
+
+#: Controller/StatementsController.php:46;71
+msgid "The statement has been saved"
+msgstr ""
+
+#: Controller/StatementsController.php:49;74
+msgid "The statement could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/StatementsController.php:102
+msgid "Statement deleted"
+msgstr ""
+
+#: Controller/StatementsController.php:105
+msgid "Statement was not deleted"
+msgstr ""
+
+#: Controller/UsersController.php:47
+msgid "Invalid username or password, please try again."
+msgstr ""
+
+#: Controller/UsersController.php:47
+msgid "Click here if you've forgotten your password."
+msgstr ""
+
+#: Controller/UsersController.php:56
+msgid "You are now logged out."
+msgstr ""
+
+#: Controller/UsersController.php:56
+msgid " Thanks for using "
+msgstr ""
+
+#: Controller/UsersController.php:69
+msgid "Invalid Response ID"
+msgstr ""
+
+#: Controller/UsersController.php:93 View/Elements/loggedin-buttons.ctp:3
+#: View/Users/account.ctp:4
+msgid "My Account"
+msgstr ""
+
+#: Controller/UsersController.php:113
+msgid "Account updated."
+msgstr ""
+
+#: Controller/UsersController.php:115;197
+msgid "Please double check your entry..."
+msgstr ""
+
+#: Controller/UsersController.php:125 View/Users/login.ctp:21
+msgid "Forgot password"
+msgstr ""
+
+#: Controller/UsersController.php:153
+msgid "Password Reset for your "
+msgstr ""
+
+#: Controller/UsersController.php:160
+msgid "Sorry, that account could not be found."
+msgstr ""
+
+#: Controller/UsersController.php:191
+msgid "Password changed for your "
+msgstr ""
+
+#: Controller/UsersController.php:204
+msgid "Sorry, that reset link is invalid."
+msgstr ""
+
+#: Controller/UsersController.php:284;326;364
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:294;351
+msgid "You don't have permissions to view that user."
+msgstr ""
+
+#: Controller/UsersController.php:306;336
+msgid "The user has been saved"
+msgstr ""
+
+#: Controller/UsersController.php:309;339
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:368
+msgid "User deleted"
+msgstr ""
+
+#: Controller/UsersController.php:371
+msgid "User was not deleted"
+msgstr ""
+
+#: Plugin/Twitter/Controller/TwitterController.php:171
+msgid "test status message failed"
+msgstr ""
+
+#: Plugin/Twitter/Controller/TwitterController.php:174
+msgid ""
+"no user to tie this twitter account to (probably need to auto create a user "
+"on our end"
+msgstr ""
+
+#: Plugin/Twitter/Lib/Utility/Twitter.php:196
+msgid "Invalid Endpoint: %s"
+msgstr ""
+
+#: Plugin/Twitter/View/Twitter/dashboard.ctp:13
+msgid "Credentials found reload page to check authorization."
+msgstr ""
+
+#: Plugin/Twitter/View/Twitter/dashboard.ctp:15
+msgid "No credentials found you must authorize."
+msgstr ""
+
+#: Plugin/Twitter/View/Twitter/dashboard.ctp:23
+msgid "Connect"
+msgstr ""
+
+#: View/Categories/admin_add.ctp:4
+msgid "Admin Add Category"
+msgstr ""
+
+#: View/Categories/admin_add.ctp:11 View/Categories/admin_edit.ctp:13
+#: View/Conditions/admin_add.ctp:10 View/Conditions/admin_edit.ctp:11
+#: View/Contacts/add.ctp:26 View/Contacts/admin_add.ctp:11
+#: View/Contacts/admin_edit.ctp:12 View/Favourites/admin_add.ctp:10
+#: View/Favourites/admin_edit.ctp:11 View/NetworkCategories/admin_add.ctp:10
+#: View/NetworkCategories/admin_edit.ctp:11
+#: View/NetworkMembers/admin_add.ctp:12 View/NetworkMembers/admin_edit.ctp:13
+#: View/NetworkTypes/admin_add.ctp:11 View/NetworkTypes/admin_edit.ctp:12
+#: View/Pages/admin_add.ctp:10 View/Pages/admin_edit.ctp:11
+#: View/Responses/admin_add.ctp:21 View/Responses/admin_edit.ctp:18
+#: View/Responses/questionnaire_page_14.ctp:58 View/Services/admin_add.ctp:51
+#: View/Services/admin_edit.ctp:66 View/Statements/admin_add.ctp:12
+#: View/Statements/admin_edit.ctp:13 View/Users/admin_add.ctp:19
+#: View/Users/admin_add_champion.ctp:22 View/Users/admin_edit.ctp:21
+#: View/Users/admin_edit_champion.ctp:25
+msgid "Submit"
+msgstr ""
+
+#: View/Categories/admin_edit.ctp:4
+msgid "Admin Edit Category"
+msgstr ""
+
+#: View/Categories/admin_index.ctp:2
+msgid "Categories"
+msgstr ""
+
+#: View/Categories/admin_index.ctp:10 View/Categories/admin_view.ctp:51;90;129
+#: View/Conditions/admin_index.ctp:7 View/Conditions/admin_view.ctp:33
+#: View/Contacts/admin_index.ctp:11 View/Favourites/admin_index.ctp:8
+#: View/Layouts/admin.ctp:47 View/NetworkCategories/admin_index.ctp:10
+#: View/NetworkCategories/admin_view.ctp:46;84
+#: View/NetworkMembers/admin_index.ctp:12 View/NetworkTypes/admin_index.ctp:10
+#: View/NetworkTypes/admin_view.ctp:46 View/Pages/admin_index.ctp:9
+#: View/Responses/admin_index.ctp:11 View/Responses/admin_view.ctp:84;109;145
+#: View/Services/admin_index.ctp:31 View/Services/admin_view.ctp:120;156
+#: View/Statements/admin_index.ctp:10 View/Statements/admin_view.ctp:51;97
+#: View/Users/admin_index.ctp:10 View/Users/admin_view.ctp:117
+msgid "Actions"
+msgstr ""
+
+#: View/Categories/admin_index.ctp:22
+#: View/Categories/admin_view.ctp:64;103;142
+#: View/Conditions/admin_index.ctp:14 View/Conditions/admin_view.ctp:52
+#: View/Contacts/admin_index.ctp:22 View/Favourites/admin_index.ctp:20
+#: View/NetworkCategories/admin_index.ctp:22
+#: View/NetworkCategories/admin_view.ctp:57;96
+#: View/NetworkMembers/admin_index.ctp:28 View/NetworkTypes/admin_index.ctp:20
+#: View/NetworkTypes/admin_view.ctp:56 View/Pages/admin_index.ctp:18
+#: View/Responses/admin_index.ctp:25 View/Responses/admin_view.ctp:93;119;157
+#: View/Services/admin_index.ctp:41 View/Services/admin_view.ctp:130;169
+#: View/ServicesEdits/admin_index.ctp:41;77 View/Statements/admin_index.ctp:20
+#: View/Statements/admin_view.ctp:64;117 View/Users/admin_index.ctp:20
+#: View/Users/admin_view.ctp:127
+msgid "View"
+msgstr ""
+
+#: View/Categories/admin_index.ctp:23
+#: View/Categories/admin_view.ctp:65;104;143
+#: View/Conditions/admin_index.ctp:15 View/Conditions/admin_view.ctp:53
+#: View/Contacts/admin_index.ctp:23 View/Favourites/admin_index.ctp:21
+#: View/NetworkCategories/admin_index.ctp:23
+#: View/NetworkCategories/admin_view.ctp:58;97
+#: View/NetworkMembers/admin_index.ctp:29 View/NetworkTypes/admin_index.ctp:21
+#: View/NetworkTypes/admin_view.ctp:57 View/Pages/admin_index.ctp:19
+#: View/Responses/admin_index.ctp:26 View/Responses/admin_view.ctp:94;120;158
+#: View/Services/admin_index.ctp:42 View/Services/admin_view.ctp:131;170
+#: View/Statements/admin_index.ctp:21 View/Statements/admin_view.ctp:65;118
+#: View/Users/admin_index.ctp:21 View/Users/admin_view.ctp:128
+msgid "Edit"
+msgstr ""
+
+#: View/Categories/admin_index.ctp:24
+#: View/Categories/admin_view.ctp:66;105;144
+#: View/Conditions/admin_index.ctp:16 View/Conditions/admin_view.ctp:54
+#: View/Contacts/admin_index.ctp:24 View/Favourites/admin_index.ctp:22
+#: View/NetworkCategories/admin_index.ctp:24
+#: View/NetworkCategories/admin_view.ctp:59;98
+#: View/NetworkMembers/admin_index.ctp:30 View/NetworkTypes/admin_index.ctp:22
+#: View/NetworkTypes/admin_view.ctp:58 View/Pages/admin_index.ctp:20
+#: View/Responses/admin_index.ctp:27 View/Responses/admin_view.ctp:95;159
+#: View/Services/admin_index.ctp:43 View/Services/admin_view.ctp:132;171
+#: View/Statements/admin_index.ctp:22 View/Statements/admin_view.ctp:66;119
+#: View/Users/admin_index.ctp:22 View/Users/admin_view.ctp:129
+msgid "Delete"
+msgstr ""
+
+#: View/Categories/admin_index.ctp:24
+#: View/Categories/admin_view.ctp:66;105;144
+#: View/Conditions/admin_index.ctp:16 View/Conditions/admin_view.ctp:54
+#: View/Contacts/admin_index.ctp:24 View/Favourites/admin_index.ctp:22
+#: View/NetworkCategories/admin_index.ctp:24
+#: View/NetworkCategories/admin_view.ctp:59;98
+#: View/NetworkMembers/admin_index.ctp:30 View/NetworkTypes/admin_index.ctp:22
+#: View/NetworkTypes/admin_view.ctp:58 View/Pages/admin_index.ctp:20
+#: View/Responses/admin_index.ctp:27 View/Responses/admin_view.ctp:95;159
+#: View/Services/admin_index.ctp:43 View/Services/admin_view.ctp:132;171
+#: View/Statements/admin_index.ctp:22 View/Statements/admin_view.ctp:66;119
+#: View/Users/admin_index.ctp:22 View/Users/admin_view.ctp:129
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/Categories/admin_index.ctp:32 View/Conditions/admin_index.ctp:24
+#: View/Contacts/admin_index.ctp:32 View/Favourites/admin_index.ctp:30
+#: View/NetworkCategories/admin_index.ctp:32
+#: View/NetworkMembers/admin_index.ctp:38 View/NetworkTypes/admin_index.ctp:30
+#: View/Pages/admin_index.ctp:28 View/Responses/admin_index.ctp:35
+#: View/Services/admin_index.ctp:51 View/Statements/admin_index.ctp:30
+#: View/Users/admin_index.ctp:30
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/Categories/admin_index.ctp:37 View/Conditions/admin_index.ctp:29
+#: View/Contacts/admin_index.ctp:37 View/Favourites/admin_index.ctp:35
+#: View/NetworkCategories/admin_index.ctp:37
+#: View/NetworkMembers/admin_index.ctp:43 View/NetworkTypes/admin_index.ctp:35
+#: View/Pages/admin_index.ctp:33 View/Responses/admin_index.ctp:40
+#: View/Services/admin_index.ctp:56 View/Statements/admin_index.ctp:35
+#: View/Users/admin_index.ctp:35
+msgid "previous"
+msgstr ""
+
+#: View/Categories/admin_index.ctp:39 View/Conditions/admin_index.ctp:31
+#: View/Contacts/admin_index.ctp:39 View/Favourites/admin_index.ctp:37
+#: View/NetworkCategories/admin_index.ctp:39
+#: View/NetworkMembers/admin_index.ctp:45 View/NetworkTypes/admin_index.ctp:37
+#: View/Pages/admin_index.ctp:35 View/Responses/admin_index.ctp:42
+#: View/Services/admin_index.ctp:58 View/Statements/admin_index.ctp:37
+#: View/Users/admin_index.ctp:37
+msgid "next"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:2
+msgid "Category"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:4;45;84;123
+#: View/Conditions/admin_view.ctp:4;21 View/Contacts/admin_view.ctp:4
+#: View/Favourites/admin_view.ctp:4
+#: View/NetworkCategories/admin_view.ctp:4;40;77
+#: View/NetworkMembers/admin_view.ctp:4 View/NetworkTypes/admin_view.ctp:4;41
+#: View/Pages/admin_view.ctp:4 View/Responses/admin_view.ctp:9;82;106;138
+#: View/Services/admin_view.ctp:11;117;150
+#: View/Statements/admin_view.ctp:4;45;84 View/Users/admin_view.ctp:4;50;114
+msgid "Id"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:9;46;85 View/Conditions/admin_view.ctp:9;24
+#: View/Contacts/admin_view.ctp:9
+#: View/NetworkCategories/admin_view.ctp:9;41;78
+#: View/NetworkMembers/admin_view.ctp:9 View/NetworkTypes/admin_view.ctp:9;43
+#: View/Pages/admin_view.ctp:9 View/Responses/admin_view.ctp:24;83;139
+#: View/Services/admin_view.ctp:16;151 View/Statements/admin_view.ctp:46;87
+#: View/Users/admin_view.ctp:62
+msgid "Name"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:14
+msgid "Parent Category"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:19 View/NetworkTypes/admin_view.ctp:14
+#: View/Services/admin_view.ctp:66 View/Statements/admin_view.ctp:14
+msgid "Description"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:24;48;87;126
+#: View/Conditions/admin_view.ctp:30 View/Contacts/admin_view.ctp:24
+#: View/NetworkCategories/admin_view.ctp:14;42;80
+#: View/NetworkMembers/admin_view.ctp:19
+#: View/NetworkTypes/admin_view.ctp:24;44 View/Pages/admin_view.ctp:19
+#: View/Responses/admin_view.ctp:59;141 View/Services/admin_view.ctp:96;153
+#: View/ServicesEdits/admin_index.ctp:67
+#: View/Statements/admin_view.ctp:24;48;94 View/Users/admin_view.ctp:29;86
+msgid "Created"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:29;49;88;127
+#: View/Conditions/admin_view.ctp:31 View/Contacts/admin_view.ctp:29
+#: View/NetworkCategories/admin_view.ctp:19;43;81
+#: View/NetworkMembers/admin_view.ctp:24
+#: View/NetworkTypes/admin_view.ctp:29;45 View/Pages/admin_view.ctp:24
+#: View/Responses/admin_view.ctp:64;142 View/Services/admin_view.ctp:101;154
+#: View/Statements/admin_view.ctp:29;49;95 View/Users/admin_view.ctp:34;90
+msgid "Modified"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:34;50;89;128
+#: View/Conditions/admin_view.ctp:32
+#: View/NetworkCategories/admin_view.ctp:24;44
+#: View/NetworkMembers/admin_view.ctp:29 View/Pages/admin_view.ctp:29
+#: View/Responses/admin_view.ctp:69 View/Services/admin_view.ctp:106;155
+#: View/ServicesEdits/admin_index.ctp:103
+#: View/Statements/admin_view.ctp:34;50;96 View/Users/admin_view.ctp:39;94
+msgid "Deleted"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:41 View/Services/admin_view.ctp:146
+#: View/Statements/admin_view.ctp:41
+msgid "Related Categories"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:47 View/NetworkCategories/admin_view.ctp:45
+#: View/Services/admin_view.ctp:152 View/Statements/admin_view.ctp:47
+msgid "Parent Id"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:75
+msgid "New Child Category"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:80
+msgid "Related Services"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:86 View/Services/admin_view.ctp:41
+msgid "Town"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:114 View/Layouts/admin.ctp:100
+msgid "New Service"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:119 View/Responses/admin_view.ctp:102
+msgid "Related Statements"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:124 View/Responses/admin_view.ctp:107
+#: View/Statements/admin_view.ctp:2;9
+msgid "Statement"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:125 View/Statements/admin_view.ctp:19
+msgid "Order"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:153 View/Layouts/admin.ctp:64
+#: View/Responses/admin_view.ctp:129
+msgid "New Statement"
+msgstr ""
+
+#: View/Common/view.ctp:5 View/Layouts/default.ctp:155
+#: View/Responses/questionnaire_page_1.ctp:7
+#: View/Responses/questionnaire_page_14.ctp:5
+#: View/Responses/questionnaire_page_2.ctp:5
+msgid "Questionnaire"
+msgstr "Въпросник"
+
+#: View/Common/view.ctp:15 View/Contacts/admin_view.ctp:19
+msgid "Question"
+msgstr ""
+
+#: View/Common/view.ctp:27 View/Elements/questionnaire.ctp:157
+msgid "No, I am not interested"
+msgstr ""
+
+#: View/Common/view.ctp:28 View/Elements/questionnaire.ctp:158
+msgid "Yes, I might be interested"
+msgstr ""
+
+#: View/Common/view.ctp:29 View/Elements/questionnaire.ctp:159
+msgid "Yes, I am definitely interested"
+msgstr ""
+
+#: View/Common/view.ctp:52 View/Elements/questionnaire.ctp:179
+msgid "I am interested in the following things"
+msgstr ""
+
+#: View/Common/view.ctp:100 View/Responses/questionnaire_page_14.ctp:48
+#: View/Responses/questionnaire_page_2.ctp:157
+msgid "Previous page"
+msgstr ""
+
+#: View/Common/view.ctp:110 View/Responses/questionnaire_page_1.ctp:107
+#: View/Responses/questionnaire_page_2.ctp:167
+msgid "Next page"
+msgstr ""
+
+#: View/Conditions/admin_add.ctp:4
+msgid "Admin Add Condition"
+msgstr ""
+
+#: View/Conditions/admin_edit.ctp:4
+msgid "Admin Edit Condition"
+msgstr ""
+
+#: View/Conditions/admin_index.ctp:2
+msgid "Conditions"
+msgstr ""
+
+#: View/Conditions/admin_view.ctp:2
+msgid "Condition"
+msgstr ""
+
+#: View/Conditions/admin_view.ctp:17 View/NetworkTypes/admin_view.ctp:37
+#: View/Statements/admin_view.ctp:80 View/Users/admin_view.ctp:47
+msgid "Related Responses"
+msgstr ""
+
+#: View/Conditions/admin_view.ctp:22 View/NetworkTypes/admin_view.ctp:42
+#: View/Services/admin_view.ctp:118 View/Statements/admin_view.ctp:85
+#: View/Users/admin_view.ctp:54;115
+msgid "User Id"
+msgstr ""
+
+#: View/Conditions/admin_view.ctp:23 View/Responses/admin_view.ctp:19
+#: View/Statements/admin_view.ctp:86 View/Users/admin_view.ctp:58
+msgid "Title"
+msgstr ""
+
+#: View/Conditions/admin_view.ctp:25 View/Responses/admin_view.ctp:29
+#: View/Statements/admin_view.ctp:88 View/Users/admin_view.ctp:66
+msgid "Age"
+msgstr ""
+
+#: View/Conditions/admin_view.ctp:26 View/Responses/admin_view.ctp:34
+#: View/Statements/admin_view.ctp:89 View/Users/admin_view.ctp:70
+msgid "Gender"
+msgstr ""
+
+#: View/Conditions/admin_view.ctp:27 View/Responses/admin_view.ctp:39
+#: View/Statements/admin_view.ctp:90 View/Users/admin_view.ctp:74
+msgid "Marital Status"
+msgstr ""
+
+#: View/Conditions/admin_view.ctp:28 View/Responses/admin_view.ctp:44
+#: View/Services/admin_view.ctp:46 View/Statements/admin_view.ctp:91
+#: View/Users/admin_view.ctp:78
+msgid "Postcode"
+msgstr ""
+
+#: View/Conditions/admin_view.ctp:29 View/Responses/admin_view.ctp:49
+#: View/Statements/admin_view.ctp:92 View/Users/admin_view.ctp:82
+msgid "Telephone"
+msgstr "Телефон"
+
+#: View/Conditions/admin_view.ctp:63 View/Layouts/admin.ctp:80
+#: View/NetworkTypes/admin_view.ctp:67 View/Statements/admin_view.ctp:128
+msgid "New Response"
+msgstr ""
+
+#: View/Contacts/add.ctp:18
+msgid "Ask us a question"
+msgstr ""
+
+#: View/Contacts/add.ctp:23
+msgid "Your Name"
+msgstr ""
+
+#: View/Contacts/add.ctp:24
+msgid "Your Email Address"
+msgstr ""
+
+#: View/Contacts/add.ctp:25
+msgid "Your Question"
+msgstr ""
+
+#: View/Contacts/admin_add.ctp:4
+msgid "Admin Add Contact"
+msgstr ""
+
+#: View/Contacts/admin_edit.ctp:4
+msgid "Admin Edit Contact"
+msgstr ""
+
+#: View/Contacts/admin_index.ctp:2 View/Layouts/admin.ctp:134
+msgid "Contact Form Submissions"
+msgstr ""
+
+#: View/Contacts/admin_view.ctp:2
+msgid "Contact Form Submission"
+msgstr ""
+
+#: View/Contacts/admin_view.ctp:14 View/Elements/login-form.ctp:3
+#: View/Services/admin_view.ctp:56 View/Users/admin_view.ctp:9
+msgid "Email"
+msgstr "Телефон"
+
+#: View/Elements/admin_quick_service.ctp:6
+msgid "Services Quick-Add"
+msgstr ""
+
+#: View/Elements/availability_box.ctp:37
+#: View/Elements/availability_results_service.ctp:31
+#: View/Elements/results_box.ctp:50 View/Elements/results_service.ctp:31
+msgid "Where?"
+msgstr "Къде?"
+
+#: View/Elements/availability_box.ctp:42
+#: View/Elements/availability_results_service.ctp:36
+#: View/Elements/results_box.ctp:55 View/Elements/results_service.ctp:36
+#: View/Layouts/default.ctp:207
+msgid "Contact"
+msgstr "Контакт"
+
+#: View/Elements/availability_box.ctp:43
+#: View/Elements/availability_results_service.ctp:37
+#: View/Elements/results_box.ctp:56 View/Elements/results_service.ctp:37
+msgid "Tel:"
+msgstr ""
+
+#: View/Elements/availability_box.ctp:45
+#: View/Elements/availability_results_service.ctp:39
+#: View/Elements/results_box.ctp:58 View/Elements/results_service.ctp:39
+msgid "Email:"
+msgstr ""
+
+#: View/Elements/availability_box.ctp:47
+#: View/Elements/availability_results_service.ctp:41
+#: View/Elements/results_box.ctp:60 View/Elements/results_service.ctp:41
+msgid "Web:"
+msgstr "Електронна страница:"
+
+#: View/Elements/availability_box.ctp:52
+#: View/Elements/availability_results_service.ctp:46
+#: View/Elements/results_box.ctp:65 View/Elements/results_service.ctp:46
+msgid "Facebook"
+msgstr "Фейсбук адрес:"
+
+#: View/Elements/availability_box.ctp:58 View/Elements/results_box.ctp:77
+#: View/Elements/results_list.ctp:26
+msgid "Read More"
+msgstr ""
+
+#: View/Elements/availability_box.ctp:83
+msgid "Print results"
+msgstr ""
+
+#: View/Elements/availability_box.ctp:117 View/Elements/results_box.ctp:169
+msgid "No Results"
+msgstr ""
+
+#: View/Elements/availability_box.ctp:118 View/Elements/results_box.ctp:170
+msgid ""
+"Sorry, no results were found for this category in the chosen area. Please "
+"try widening the search area, or try another category or postcode."
+msgstr ""
+
+#: View/Elements/availability_results_service.ctp:17
+#: View/Elements/results_box.ctp:70 View/Elements/results_list.ctp:20
+#: View/Elements/results_service.ctp:17
+msgid "Favourite This"
+msgstr ""
+
+#: View/Elements/availability_results_service.ctp:19
+#: View/Elements/results_box.ctp:72 View/Elements/results_list.ctp:22
+#: View/Elements/results_service.ctp:19
+msgid "Remove from favourites"
+msgstr ""
+
+#: View/Elements/availability_results_service.ctp:27
+#: View/Elements/results_service.ctp:27
+msgid "When?"
+msgstr "Кога?"
+
+#: View/Elements/availability_results_service.ctp:33
+#: View/Elements/results_service.ctp:33
+msgid "Street view"
+msgstr ""
+
+#: View/Elements/availability_results_service.ctp:50
+#: View/Elements/results_service.ctp:50
+msgid "Info"
+msgstr "Информация"
+
+#: View/Elements/availability_results_service.ctp:55
+#: View/Elements/results_service.ctp:55
+msgid "Video"
+msgstr ""
+
+#: View/Elements/availability_results_service.ctp:77
+#: View/Elements/results_service.ctp:77
+msgid "Tweets from"
+msgstr ""
+
+#: View/Elements/availability_results_service.ctp:89
+#: View/Elements/results_service.ctp:89
+msgid "Back to all Results"
+msgstr ""
+
+#: View/Elements/category_filter.ctp:4
+msgid "Filter results by:"
+msgstr ""
+
+#: View/Elements/category_filter.ctp:4
+msgid "Filter my results by:"
+msgstr ""
+
+#: View/Elements/category_filter.ctp:28
+msgid "My Top Results"
+msgstr ""
+
+#: View/Elements/category_filter.ctp:30
+msgid "All"
+msgstr ""
+
+#: View/Elements/category_filter.ctp:32 View/Services/view.ctp:61
+msgid "My Results"
+msgstr ""
+
+#: View/Elements/category_filter.ctp:61
+msgid "Click on the categories above if you would like to filter your search"
+msgstr ""
+
+#: View/Elements/getting_there.ctp:2 View/Services/view.ctp:76
+msgid "Getting there"
+msgstr ""
+
+#: View/Elements/getting_there.ctp:4 View/Services/view.ctp:78
+msgid ""
+"Fill in your current location and the location of your destination to get a "
+"public transport route."
+msgstr ""
+
+#: View/Elements/getting_there.ctp:5 View/Services/view.ctp:79
+msgid "You will be redirected to the GMPTE site to get your results"
+msgstr ""
+
+#: View/Elements/getting_there.ctp:15 View/Services/view.ctp:84
+msgid "Travelling..."
+msgstr ""
+
+#: View/Elements/getting_there.ctp:17
+msgid "From"
+msgstr ""
+
+#: View/Elements/getting_there.ctp:25
+msgid "Via (optional)"
+msgstr ""
+
+#: View/Elements/getting_there.ctp:30 View/Services/view.ctp:96
+msgid "Time And Date..."
+msgstr ""
+
+#: View/Elements/getting_there.ctp:33 View/Services/view.ctp:99
+msgid "Leave after"
+msgstr ""
+
+#: View/Elements/getting_there.ctp:35 View/Services/view.ctp:101
+msgid "Arrive By"
+msgstr ""
+
+#: View/Elements/getting_there.ctp:40 View/Services/view.ctp:106
+msgid "Time"
+msgstr ""
+
+#: View/Elements/getting_there.ctp:48
+msgid "Date"
+msgstr ""
+
+#: View/Elements/getting_there.ctp:85
+msgid "Enter a date between %s and %s"
+msgstr ""
+
+#: View/Elements/getting_there.ctp:88 View/Services/view.ctp:142
+msgid "Mode Of Transport..."
+msgstr ""
+
+#: View/Elements/getting_there.ctp:89 View/Services/view.ctp:143
+msgid "I would like to travel by..."
+msgstr ""
+
+#: View/Elements/getting_there.ctp:94 View/Services/view.ctp:148
+msgid "Bus"
+msgstr ""
+
+#: View/Elements/getting_there.ctp:98 View/Services/view.ctp:152
+msgid "Metro"
+msgstr ""
+
+#: View/Elements/getting_there.ctp:102 View/Services/view.ctp:156
+msgid "Ferry"
+msgstr ""
+
+#: View/Elements/getting_there.ctp:108 View/Services/view.ctp:162
+msgid "Rail"
+msgstr ""
+
+#: View/Elements/getting_there.ctp:112 View/Services/view.ctp:166
+msgid "Coach"
+msgstr ""
+
+#: View/Elements/loggedin-buttons.ctp:4
+msgid "Admin"
+msgstr ""
+
+#: View/Elements/loggedin-buttons.ctp:5
+msgid "Log Out"
+msgstr ""
+
+#: View/Elements/login-form.ctp:4 View/Users/admin_view.ctp:14
+msgid "Password"
+msgstr "Парола"
+
+#: View/Elements/login-form.ctp:5
+msgid "Log In"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:2
+msgid ""
+"You are currently previewing another user's saved response. Please switch to "
+"your own response in the admin area to use the questionnaire."
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:7
+#: View/Responses/questionnaire_page_1.ctp:17
+msgid "General Information about you"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:8
+#: View/Responses/questionnaire_page_1.ctp:19
+msgid "Click 'Next Question' once you have completed this page"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:12
+#: View/Responses/questionnaire_page_1.ctp:26
+msgid "We need this to find services near you"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:16
+#: View/Responses/questionnaire_page_1.ctp:41
+msgid "Optional"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:17
+msgid ""
+"Optional. If you supply your email address, we'll save your answers and "
+"email you a login so you won't need to take the questionnaire again"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:22
+#: View/Responses/questionnaire_page_1.ctp:63
+msgid "Male"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:22
+#: View/Responses/questionnaire_page_1.ctp:64
+msgid "Female"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:22
+#: View/Responses/questionnaire_page_1.ctp:66
+msgid "Please select your gender:"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:23
+#: View/Responses/questionnaire_page_1.ctp:71
+msgid "Please select your age range:"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:24
+#: View/Responses/questionnaire_page_1.ctp:84
+msgid "Do you have any of the following health conditions?"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:24
+#: View/Responses/questionnaire_page_1.ctp:85
+msgid "(Click all that are appropriate to you.)"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:35 View/Layouts/default.ctp:176
+#: View/Responses/my_network.ctp:3 View/Responses/questionnaire_page_2.ctp:14
+msgid "My Network"
+msgstr "Моята мрежа"
+
+#: View/Elements/questionnaire.ctp:46
+#: View/Responses/questionnaire_page_2.ctp:18
+msgid "Daily"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:47
+#: View/Responses/questionnaire_page_2.ctp:19
+msgid "At least once a week"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:48
+#: View/Responses/questionnaire_page_2.ctp:20
+msgid "At least once a month"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:49
+#: View/Responses/questionnaire_page_2.ctp:21
+msgid "Less often"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:53
+#: View/Responses/questionnaire_page_2.ctp:25
+msgid "Drag your pin over the trash icon above to delete it"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:58
+msgid ""
+"Please tell us about your network of friends, family and others you're in "
+"contact with, to help us supply you with the most useful results"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:62
+#: View/Responses/questionnaire_page_2.ctp:35
+msgid "For an example click here"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:70
+#: View/Responses/questionnaire_page_2.ctp:46
+msgid "Their name, or just a nickname if you prefer"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:71
+#: View/Responses/questionnaire_page_2.ctp:55
+msgid "How often are you in contact with them?"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:72
+#: View/Responses/questionnaire_page_2.ctp:64
+msgid "What type of relationship do they have to you"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:81
+#: View/Responses/questionnaire_page_2.ctp:86
+msgid "Who are they?"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:129
+#: View/Responses/questionnaire_page_2.ctp:143
+msgid ""
+"Once you have finished entering your information, drag your newly created "
+"pin to the diagram."
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:133
+#: View/Responses/questionnaire_page_2.ctp:149
+msgid "You"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:147 View/Pages/admin_view.ctp:2
+msgid "Page"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:202
+msgid " is interested in the following things"
+msgstr ""
+
+#: View/Elements/questionnaire.ctp:227
+#: View/Responses/questionnaire_page_1.ctp:98
+msgid "Finish"
+msgstr ""
+
+#: View/Elements/results_box.ctp:135 View/Services/index.ctp:76
+#: View/Services/view.ctp:59
+msgid "Print Your results"
+msgstr ""
+
+#: View/Emails/text/forgot_password.ctp:3
+msgid ""
+"A password reset request has been received for your account. If this is "
+"correct please click the following link to generate a new password:"
+msgstr ""
+
+#: View/Emails/text/forgot_password.ctp:7
+msgid ""
+"If you did not request a password reset, please delete this email and do not "
+"click the link."
+msgstr ""
+
+#: View/Emails/text/forgot_password.ctp:10
+#: View/Emails/text/new_password.ctp:10
+msgid "Thanks,"
+msgstr ""
+
+#: View/Emails/text/new_password.ctp:3
+msgid "Your password has recently been changed."
+msgstr ""
+
+#: View/Emails/text/new_password.ctp:5
+msgid "You can log in at %s with your new details."
+msgstr ""
+
+#: View/Emails/text/new_password.ctp:7
+msgid ""
+"If you did not recently request a password reset, please contact us straight "
+"away."
+msgstr ""
+
+#: View/Emails/text/new_user.ctp:20
+msgid "Thank you for filling in the questionnaire."
+msgstr ""
+
+#: View/Emails/text/new_user.ctp:22
+msgid ""
+"We've saved your answers, and you can get your personalised map by visiting "
+msgstr ""
+
+#: View/Favourites/admin_add.ctp:4
+msgid "Admin Add Favourite"
+msgstr ""
+
+#: View/Favourites/admin_edit.ctp:4
+msgid "Admin Edit Favourite"
+msgstr ""
+
+#: View/Favourites/admin_index.ctp:2
+msgid "Favourites"
+msgstr ""
+
+#: View/Favourites/admin_view.ctp:2
+msgid "Favourite"
+msgstr ""
+
+#: View/Favourites/admin_view.ctp:9 View/Responses/admin_view.ctp:14
+#: View/Users/admin_view.ctp:2
+msgid "User"
+msgstr ""
+
+#: View/Favourites/admin_view.ctp:14 View/Services/admin_view.ctp:9
+msgid "Service"
+msgstr ""
+
+#: View/Helper/OHPinMapHelper.php:38
+msgid "Search Map"
+msgstr ""
+
+#: View/Helper/OHPinMapHelper.php:39
+msgid "Drag the map to move."
+msgstr ""
+
+#: View/Helper/OHPinMapHelper.php:39
+msgid "Click anywhere on the map to place the marker."
+msgstr ""
+
+#: View/Helper/OHPinMapHelper.php:39
+msgid "Use the search to find a postcode or town."
+msgstr ""
+
+#: View/Layouts/admin.ctp:43
+msgid "Tools"
+msgstr ""
+
+#: View/Layouts/admin.ctp:45
+msgid "Service Quick-add"
+msgstr ""
+
+#: View/Layouts/admin.ctp:50
+msgid "List Users"
+msgstr ""
+
+#: View/Layouts/admin.ctp:52
+msgid "New User"
+msgstr ""
+
+#: View/Layouts/admin.ctp:54
+msgid "List Favourites"
+msgstr ""
+
+#: View/Layouts/admin.ctp:55 View/Services/admin_view.ctp:141
+#: View/Users/admin_view.ctp:138
+msgid "New Favourite"
+msgstr ""
+
+#: View/Layouts/admin.ctp:62
+msgid "List Statements"
+msgstr ""
+
+#: View/Layouts/admin.ctp:70
+msgid "List Conditions"
+msgstr ""
+
+#: View/Layouts/admin.ctp:72
+msgid "New Condition"
+msgstr ""
+
+#: View/Layouts/admin.ctp:78
+msgid "List Responses"
+msgstr ""
+
+#: View/Layouts/admin.ctp:82
+msgid "List Network Members"
+msgstr ""
+
+#: View/Layouts/admin.ctp:83 View/NetworkCategories/admin_view.ctp:107
+#: View/Responses/admin_view.ctp:168
+msgid "New Network Member"
+msgstr ""
+
+#: View/Layouts/admin.ctp:86
+msgid "List Network Categories"
+msgstr ""
+
+#: View/Layouts/admin.ctp:87
+msgid "New Network Category"
+msgstr ""
+
+#: View/Layouts/admin.ctp:90
+msgid "List Network Types"
+msgstr ""
+
+#: View/Layouts/admin.ctp:91
+msgid "New Network Type"
+msgstr ""
+
+#: View/Layouts/admin.ctp:98
+msgid "List Services"
+msgstr ""
+
+#: View/Layouts/admin.ctp:102
+msgid "List Categories"
+msgstr ""
+
+#: View/Layouts/admin.ctp:103 View/Services/admin_view.ctp:180
+#: View/Statements/admin_view.ctp:75
+msgid "New Category"
+msgstr ""
+
+#: View/Layouts/admin.ctp:112
+msgid "Recently modified services ("
+msgstr ""
+
+#: View/Layouts/admin.ctp:126
+msgid "List Pages"
+msgstr ""
+
+#: View/Layouts/admin.ctp:128
+msgid "New Page"
+msgstr ""
+
+#: View/Layouts/default.ctp:93
+msgid "Change contrast"
+msgstr "Промени контраста"
+
+#: View/Layouts/default.ctp:101
+msgid "Change Type Size"
+msgstr "Промени размера на шрифта"
+
+#: View/Layouts/default.ctp:111
+msgid "Forgotten your Password?"
+msgstr "Забравена парола?"
+
+#: View/Layouts/default.ctp:123
+msgid "Change Language"
+msgstr "Промени езика"
+
+#: View/Layouts/default.ctp:145
+msgid "Home"
+msgstr "Начало"
+
+#: View/Layouts/default.ctp:165
+msgid "My EU-GENIE"
+msgstr "Моята EU-GENIE"
+
+#: View/Layouts/default.ctp:186
+msgid "Activities Overview"
+msgstr "Преглед на дейностите"
+
+#: View/Layouts/default.ctp:196
+msgid "About"
+msgstr "За EU-GENIE"
+
+#: View/Layouts/default.ctp:218
+msgid "Search for groups (e.g. \"community centre\" or \"swimming\")"
+msgstr "Търсене на групи (напр.“общностен център“ или „плуване“)"
+
+#: View/Layouts/default.ctp:245
+msgid "Tweet us"
+msgstr ""
+
+#: View/Layouts/default.ctp:254
+msgid "EU-GENIE is released under the"
+msgstr "EU-GENIE e публикувана съгласно"
+
+#: View/Layouts/default.ctp:256
+msgid "it is"
+msgstr "Тя е"
+
+#: View/Layouts/default.ctp:257
+msgid "open source"
+msgstr "с отворен код"
+
+#: View/Layouts/default.ctp:258
+msgid "and free to use"
+msgstr " и свободна за ползване"
+
+#: View/NetworkCategories/admin_add.ctp:4
+msgid "Admin Add Network Category"
+msgstr ""
+
+#: View/NetworkCategories/admin_edit.ctp:4
+msgid "Admin Edit Network Category"
+msgstr ""
+
+#: View/NetworkCategories/admin_index.ctp:2
+msgid "Network Categories"
+msgstr ""
+
+#: View/NetworkCategories/admin_view.ctp:2
+#: View/NetworkMembers/admin_view.ctp:34
+msgid "Network Category"
+msgstr ""
+
+#: View/NetworkCategories/admin_view.ctp:29
+msgid "Parent Network Category"
+msgstr ""
+
+#: View/NetworkCategories/admin_view.ctp:36
+msgid "Related Network Categories"
+msgstr ""
+
+#: View/NetworkCategories/admin_view.ctp:68
+msgid "New Child Network Category"
+msgstr ""
+
+#: View/NetworkCategories/admin_view.ctp:73 View/Responses/admin_view.ctp:134
+msgid "Related Network Members"
+msgstr ""
+
+#: View/NetworkCategories/admin_view.ctp:79
+#: View/NetworkMembers/admin_view.ctp:14 View/Responses/admin_view.ctp:140
+msgid "Frequency"
+msgstr ""
+
+#: View/NetworkCategories/admin_view.ctp:82 View/Responses/admin_view.ctp:143
+msgid "Network Category Id"
+msgstr ""
+
+#: View/NetworkCategories/admin_view.ctp:83 View/Responses/admin_view.ctp:144
+msgid "Response Id"
+msgstr ""
+
+#: View/NetworkMembers/admin_add.ctp:4
+msgid "Admin Add Network Member"
+msgstr ""
+
+#: View/NetworkMembers/admin_edit.ctp:4
+msgid "Admin Edit Network Member"
+msgstr ""
+
+#: View/NetworkMembers/admin_index.ctp:2
+msgid "Network Members"
+msgstr ""
+
+#: View/NetworkMembers/admin_view.ctp:2
+msgid "Network Member"
+msgstr ""
+
+#: View/NetworkMembers/admin_view.ctp:39 View/Responses/admin_view.ctp:2
+msgid "Response"
+msgstr ""
+
+#: View/NetworkTypes/admin_add.ctp:4
+msgid "Admin Add Network Type"
+msgstr ""
+
+#: View/NetworkTypes/admin_edit.ctp:4
+msgid "Admin Edit Network Type"
+msgstr ""
+
+#: View/NetworkTypes/admin_index.ctp:2
+msgid "Network Types"
+msgstr ""
+
+#: View/NetworkTypes/admin_view.ctp:2 View/Responses/admin_view.ctp:54
+msgid "Network Type"
+msgstr ""
+
+#: View/NetworkTypes/admin_view.ctp:19
+msgid "Ruleset"
+msgstr ""
+
+#: View/Pages/admin_add.ctp:4
+msgid "Admin Add Page"
+msgstr ""
+
+#: View/Pages/admin_edit.ctp:4
+msgid "Admin Edit Page"
+msgstr ""
+
+#: View/Pages/admin_index.ctp:2
+msgid "Pages"
+msgstr ""
+
+#: View/Pages/admin_view.ctp:14
+msgid "Content"
+msgstr ""
+
+#: View/Pages/view.ctp:8 View/Responses/add.ctp:18
+msgid "What would you like to do next?"
+msgstr "Коя от следващите стъпки искате да направите?"
+
+#: View/Pages/view.ctp:12 View/Responses/add.ctp:22
+msgid ""
+"Fill in the short EU-GENIE questionnaire and get your own tailored, personal "
+"map"
+msgstr ""
+"Попълване на краткия въпросник на EU-GENIE и получаване на собствена "
+"персонализирана карта"
+
+#: View/Pages/view.ctp:35 View/Responses/add.ctp:30
+msgid ""
+"Have a quick look at<br/> what's available in your<br/> area by entering "
+"your<br/> postcode"
+msgstr ""
+"Бърз преглед на това, което е на разположение във Вашия район чрез въвеждане "
+"на Вашия пощенски код"
+
+#: View/Pages/view.ctp:54 View/Responses/add.ctp:31
+msgid "Sign in if you already<br/> have an account<br/> with us."
+msgstr "Влизане във Вашия профил, ако вече имате регистрация при нас"
+
+#: View/Responses/add.ctp:37;53
+msgid "Close"
+msgstr ""
+
+#: View/Responses/add.ctp:38
+msgid "Enter your postcode…"
+msgstr ""
+
+#: View/Responses/add.ctp:41
+msgid "Eg. M3 5HW"
+msgstr ""
+
+#: View/Responses/add.ctp:49
+msgid "This way we can get results local to you."
+msgstr ""
+
+#: View/Responses/add.ctp:55
+msgid "You are logged in as"
+msgstr ""
+
+#: View/Responses/add.ctp:57
+msgid "Update your questionnaire"
+msgstr ""
+
+#: View/Responses/add.ctp:68
+msgid "Already have a"
+msgstr ""
+
+#: View/Responses/add.ctp:68
+msgid "account?"
+msgstr ""
+
+#: View/Responses/add.ctp:69
+msgid "Log In below and access your personal homepage"
+msgstr ""
+
+#: View/Responses/add.ctp:71
+msgid "Don't have an account? Fill in the"
+msgstr ""
+
+#: View/Responses/add.ctp:71;74
+msgid "questionnaire..."
+msgstr ""
+
+#: View/Responses/add.ctp:74
+msgid "Fill in the"
+msgstr ""
+
+#: View/Responses/admin_add.ctp:4
+msgid "Admin Add Response"
+msgstr ""
+
+#: View/Responses/admin_edit.ctp:4
+msgid "Admin Edit Response"
+msgstr ""
+
+#: View/Responses/admin_index.ctp:2
+msgid "Responses"
+msgstr ""
+
+#: View/Responses/admin_index.ctp:24 View/Responses/admin_view.ctp:5
+msgid "Live Site View"
+msgstr ""
+
+#: View/Responses/admin_view.ctp:78
+msgid "Related Conditions"
+msgstr ""
+
+#: View/Responses/admin_view.ctp:108
+msgid "Weighting"
+msgstr ""
+
+#: View/Responses/my_network.ctp:6
+msgid "In your network"
+msgstr ""
+
+#: View/Responses/my_network.ctp:9
+msgid "There is 1 network member."
+msgstr ""
+
+#: View/Responses/my_network.ctp:9
+msgid "There are %s network members."
+msgstr ""
+
+#: View/Responses/my_network.ctp:12
+msgid "This includes"
+msgstr ""
+
+#: View/Responses/my_network.ctp:26
+msgid " and "
+msgstr ""
+
+#: View/Responses/questionnaire_page_1.ctp:49
+msgid ""
+"Optional. If you supply your email address,\n"
+"              we'll save your answers and email you a login so\n"
+"              you won't need to take the questionnaire again"
+msgstr ""
+
+#: View/Responses/questionnaire_page_14.ctp:15
+msgid "Please select your 3 most important interests"
+msgstr ""
+
+#: View/Responses/questionnaire_page_2.ctp:30
+msgid ""
+"Please tell us about your network of friends, family and others you're\n"
+"          in contact with, to help us supply you with the most useful results"
+msgstr ""
+
+#: View/Services/admin_add.ctp:4
+msgid "Admin Add Service"
+msgstr ""
+
+#: View/Services/admin_edit.ctp:4
+msgid "Admin Edit Service"
+msgstr ""
+
+#: View/Services/admin_index.ctp:23
+msgid "Services"
+msgstr ""
+
+#: View/Services/admin_view.ctp:21
+msgid "Contact Name"
+msgstr ""
+
+#: View/Services/admin_view.ctp:26
+msgid "Address 1"
+msgstr ""
+
+#: View/Services/admin_view.ctp:31
+msgid "Address 2"
+msgstr ""
+
+#: View/Services/admin_view.ctp:36
+msgid "Address 3"
+msgstr ""
+
+#: View/Services/admin_view.ctp:51
+msgid "Phone"
+msgstr ""
+
+#: View/Services/admin_view.ctp:61
+msgid "Url"
+msgstr ""
+
+#: View/Services/admin_view.ctp:71
+msgid "Time Details"
+msgstr ""
+
+#: View/Services/admin_view.ctp:76
+msgid "Twitter"
+msgstr "Туитър име:"
+
+#: View/Services/admin_view.ctp:81
+msgid "Facebook Url"
+msgstr ""
+
+#: View/Services/admin_view.ctp:86
+msgid "Lat"
+msgstr ""
+
+#: View/Services/admin_view.ctp:91
+msgid "Lng"
+msgstr ""
+
+#: View/Services/admin_view.ctp:113 View/Users/admin_view.ctp:110
+msgid "Related Favourites"
+msgstr ""
+
+#: View/Services/admin_view.ctp:119 View/Users/admin_view.ctp:116
+msgid "Service Id"
+msgstr ""
+
+#: View/Services/index.ctp:26
+msgid "Change your postcode"
+msgstr ""
+
+#: View/Services/index.ctp:47 View/Services/view.ctp:30
+msgid "Show Results Within:"
+msgstr ""
+
+#: View/Services/index.ctp:57 View/Services/view.ctp:40
+msgid "1 Mile"
+msgstr ""
+
+#: View/Services/index.ctp:61 View/Services/view.ctp:44
+msgid "2 Miles"
+msgstr ""
+
+#: View/Services/index.ctp:65 View/Services/view.ctp:48
+msgid "5 Miles"
+msgstr ""
+
+#: View/Services/index.ctp:69 View/Services/view.ctp:52
+msgid "10 Miles"
+msgstr ""
+
+#: View/Services/index.ctp:99 View/Services/view.ctp:62
+msgid "My Favourites"
+msgstr ""
+
+#: View/Services/index.ctp:135
+msgid "Already have a EUGENIE account?"
+msgstr ""
+
+#: View/Services/index.ctp:136
+msgid "Log In below to add favourites"
+msgstr ""
+
+#: View/Services/index.ctp:139
+msgid "Don't have an account? Fill in the EUGENIE questionnaire..."
+msgstr ""
+
+#: View/Services/index.ctp:140
+msgid ""
+"Put in your email address when taking the questionnaire to automatically set "
+"up an account."
+msgstr ""
+
+#: View/Services/index.ctp:142
+msgid "Fill in the EUGENIE questionnaire..."
+msgstr ""
+
+#: View/Services/view.ctp:139
+msgid "Enter a date within the next month."
+msgstr ""
+
+#: View/Services/view.ctp:172
+msgid "Get Results"
+msgstr ""
+
+#: View/ServicesEdits/admin_index.ctp:2
+msgid "Updated"
+msgstr ""
+
+#: View/ServicesEdits/admin_index.ctp:52;88;139
+msgid "Approve"
+msgstr ""
+
+#: View/ServicesEdits/admin_index.ctp:127
+msgid "Undo delete"
+msgstr ""
+
+#: View/Statements/admin_add.ctp:4
+msgid "Admin Add Statement"
+msgstr ""
+
+#: View/Statements/admin_edit.ctp:4
+msgid "Admin Edit Statement"
+msgstr ""
+
+#: View/Statements/admin_index.ctp:2
+msgid "Statements"
+msgstr ""
+
+#: View/Statements/admin_view.ctp:93
+msgid "Health Conditions"
+msgstr ""
+
+#: View/Users/account.ctp:6
+msgid "Change email address"
+msgstr ""
+
+#: View/Users/account.ctp:8
+msgid "Change password"
+msgstr ""
+
+#: View/Users/account.ctp:11
+msgid "Old password"
+msgstr ""
+
+#: View/Users/account.ctp:12
+msgid "New password"
+msgstr ""
+
+#: View/Users/account.ctp:13
+msgid "Confirm new password"
+msgstr ""
+
+#: View/Users/admin_add.ctp:4 View/Users/admin_add_champion.ctp:4
+msgid "Admin Add User"
+msgstr ""
+
+#: View/Users/admin_edit.ctp:4 View/Users/admin_edit_champion.ctp:4
+msgid "Admin Edit User"
+msgstr ""
+
+#: View/Users/admin_index.ctp:2
+msgid "Users"
+msgstr ""
+
+#: View/Users/admin_view.ctp:19
+msgid "Is Admin"
+msgstr ""
+
+#: View/Users/admin_view.ctp:24
+msgid "Forgot Password Key"
+msgstr ""
+
+#: View/Users/admin_view.ctp:101
+msgid "Edit Response"
+msgstr ""
+
+#: View/Users/admin_view.ctp:102
+msgid "View Response"
+msgstr ""
+
+#: View/Users/forgot_password.ctp:2
+msgid "Forgot Password"
+msgstr ""
+
+#: View/Users/forgot_password.ctp:6
+msgid ""
+"Please enter the email address you used to sign up, and a new password will "
+"be sent to you."
+msgstr ""
+
+#: View/Users/forgot_password.ctp:17;34
+msgid "Thank you"
+msgstr ""
+
+#: View/Users/forgot_password.ctp:18
+msgid "Please check your email inbox for further instructions."
+msgstr ""
+
+#: View/Users/forgot_password.ctp:19
+msgid ""
+"If the email doesn't arrive, please check your junk email folder before "
+"trying again."
+msgstr ""
+
+#: View/Users/forgot_password.ctp:21
+msgid "Please choose a new password"
+msgstr ""
+
+#: View/Users/forgot_password.ctp:35
+msgid "Your new password is now active."
+msgstr ""
+
+#: View/Users/forgot_password.ctp:36
+msgid "Please log in above with your new details."
+msgstr ""
+
+#: View/Users/login.ctp:3
+msgid "Welcome,"
+msgstr ""
+
+#: View/Users/login.ctp:5
+msgid "LOGOUT"
+msgstr ""
+
+#: View/Users/login.ctp:6
+msgid "MY ACCOUNT"
+msgstr ""
+
+#: View/Users/login.ctp:21
+msgid "Create Account"
+msgstr ""
+
+#: Model/Category.php:validation for field name
+msgid "You must set a category name."
+msgstr ""
+
+#: Model/Category.php:validation for field name
+msgid "The maximum allowed length is 45 characters."
+msgstr ""
+
+#: Model/Condition.php:validation for field name
+#: Model/NetworkCategory.php:validation Model/NetworkMember.php:validation
+#: Model/NetworkType.php:validation name;validation ruleset
+#: Model/Statement.php:validation statement
+msgid "notempty"
+msgstr ""
+
+#: Model/Contact.php:validation for field name;validation email;validation
+#: question
+msgid "Your custom message here"
+msgstr ""
+
+#: Model/Page.php:validation for field name
+msgid "Please set a page title"
+msgstr ""
+
+#: Model/Response.php:validation for field age
+msgid "Please choose an age range"
+msgstr ""
+
+#: Model/Response.php:validation for field gender
+msgid "Please choose a gender"
+msgstr ""
+
+#: Model/Response.php:validation for field postcode
+msgid "Please enter your postcode"
+msgstr ""
+
+#: Model/ResponseStatement.php:validation for field weighting
+msgid "Invalid weighting"
+msgstr ""
+
+#: Model/Service.php:validation for field name
+msgid "Name cannot be omitted"
+msgstr ""
+
+#: Model/Service.php:validation for field email
+msgid "Must be a valid email address."
+msgstr ""
+
+#: Model/Statement.php:validation for field order
+msgid "numeric"
+msgstr ""
+
+#: Model/TopInterest.php:validation for field data
+msgid "Please select maximum 3 most important interests."
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "You must enter a valid email address."
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid ""
+"An account using this email address already exists. Please log in instead."
+msgstr ""
+
+#: Model/User.php:validation for field is_admin
+msgid "boolean"
+msgstr ""
+
+#: Model/User.php:validation for field password
+msgid ""
+"Passwords must be 8 characters or more to ensure the security of your account"
+msgstr ""
+
+#: Model/User.php:validation for field password_confirm
+msgid "Your entered passwords should match"
+msgstr ""
+
+#: Model/User.php:validation for field old_password
+msgid "Your old password is incorrect."
+msgstr ""

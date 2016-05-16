@@ -1,0 +1,1 @@
+<?php echo $this->element('admin_quick_service'); ?>

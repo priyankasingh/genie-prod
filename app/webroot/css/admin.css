@@ -1,0 +1,202 @@
+/* Main */
+body {
+    background: none repeat scroll 0 0 #42bced;
+	color:#404e59;
+	font-family:"Museo Sans W01 500";
+}
+#header{
+	background:#fff;
+	border-bottom:1px solid #dde0e2;
+	padding:10px 20px 10px;
+}
+#header h1{
+	padding:0;
+	background:transparent none;
+	font-size:130%;
+	font-weight: bold;
+	line-height: 120%;
+	height: 81px;
+}
+#footer a, #header h1 a,
+#footer a:hover, #header h1 a:hover{
+	color:#404e59;
+	background:transparent none;
+}
+#header h1 a, #header h1 a:hover{
+	font-weight: bold;
+	height:127px;
+	width:274px;
+	display:block;
+	overflow:hidden;
+	text-indent:-9999em;
+	background:url("../img/logo-admin.png");
+	margin-left:1.5%;
+	margin-top: -28px;
+}
+/* Layout & content */
+.related{
+	margin-top:1em;
+}
+h2, h3, h4, h5, fieldset legend, form .input{
+	color:#404e59;
+}
+h1,h2,h3,h4,h5,h6,input,textarea{
+	font-family:'Museo Sans W01 500';
+}
+div.form, div.index, div.view{
+	border-color:#dde0e2;
+}
+/* Menu */
+.actions li li{
+	margin:0.5em 0 0 2em;
+}
+.actions li ul{
+	margin: 0 0 0.5em;
+}
+/* Forms */
+input, textarea{
+	padding:3px;
+	font-size:100%;
+}
+form div{
+	margin-bottom:0.2em;
+}
+option{
+	font-size:100%;
+}
+.btn {
+	float:right;
+	margin: 2px 20px 0 0;
+	padding: 0 18px;
+	height: 26px;
+	width: auto;
+	line-height: 26px;
+	background: #41bced;
+	border-radius: 20px;
+	font-size: 0.706em;
+	color: #404f59;
+	font-family: "Museo Sans W01 900", Arial, sans-serif;
+	border: none;
+	text-align: center;
+	display: inline-block;
+}
+#AdminMapWrapper{
+	overflow:hidden;
+}
+#AdminMap{
+	float:left;
+	width:300px;
+	height:200px;
+	clear:none;
+}
+#AdminMapFields{
+	float:left;
+	min-width:300px;
+	clear:none;
+}
+.multi-row{
+	overflow:hidden;
+}
+form div.multi-row .input{
+	clear:none;
+}
+.multi-row .input, .multi-row .multi-row-actions{
+	float:left;
+	width:30%;
+}
+
+/* Mapping tool */
+
+.mapping-second-stage, .google-search-box{
+	display: none;	
+}
+.mapping-box label{
+	font-weight: bold;
+}	
+.column-holder{
+	padding:0;
+	overflow:hidden;
+}
+form .column-holder div{
+	padding: 0.2em 0;
+}
+.column-holder .column1, .column-holder .column2{
+	padding:0.9%;
+	width:48%;
+	float:left;
+	clear:none;
+}
+#mapping-search{
+	display: inline-block;
+	width: 47%;
+	height: auto;
+	float: left;
+	margin-bottom: 39px;
+	padding: 29px;
+	position: relative;
+}
+
+#mapping-search .current-service{
+	margin-top: 10px;
+}
+
+.number-circle{
+	height: 38px;
+	width: 37px;
+	border-radius: 50px;
+	padding: 9px 13px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left:-24px;
+	background: #9487c6;
+	color: #fff;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+#mapping-search fieldset{
+	padding: 0px 0px;
+}
+#mapping-search input{
+	margin-top:5px;
+}
+#mapping-search label{
+	margin-top:14px;
+}
+#mapping-results{
+	border-left: 1px solid #e6e6e6;
+	/*border-bottom: 1px solid #e6e6e6;*/
+	display: inline-block;
+	width: 35%;
+	height: 146px;
+	float: left;
+	height: 258px;
+	padding: 29px;
+	position: relative;
+	padding-left: 40px;
+}
+
+#mapping-results .number-circle{
+	left:-1px;
+} 
+#mapping-service-form{
+	padding: 15px;
+	display: block;
+	width: 100%;
+	border-top: 1px solid #e6e6e6;
+	position: relative;
+}
+#mapping-service-form .col{
+	width:48%;
+}
+
+#mapping-search form div{
+	padding: 0!important;
+}
+#mapping-service-form .ajax-loader, #mapping-search .ajax-loader{
+	display:none;
+}
+
+#mappingSearchField{
+	margin-bottom: 20px;
+}

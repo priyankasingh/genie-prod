@@ -1,0 +1,1899 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-09-18 16:08+0100\n"
+"PO-Revision-Date: 2014-09-18 16:43-0000\n"
+"Last-Translator: Ciaran <ciaran@ohdigital.co.uk>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: Controller/AppController.php:63
+msgid "Sorry, you're not allowed to do that. You may need to log in first."
+msgstr ""
+"Συγγνώμη, δεν επιτρέπεται να το κάνετε αυτό. Θα πρέπει πρώτα να συνδεθείτε. "
+
+#: Controller/CategoriesController.php:29;69;103
+msgid "Invalid category"
+msgstr "Άκυρη κατηγορία"
+
+#: Controller/CategoriesController.php:46;73
+msgid "The category has been saved"
+msgstr "Η κατηγορία αποθηκεύτηκε"
+
+#: Controller/CategoriesController.php:49;76
+msgid "The category could not be saved. Please, try again."
+msgstr "Η κατηγορία δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά. "
+
+#: Controller/CategoriesController.php:107
+msgid "Category deleted"
+msgstr "Η κατηγορία διαγράφτηκε"
+
+#: Controller/CategoriesController.php:110
+msgid "Category was not deleted"
+msgstr "Η κατηγορία δεν μπόρεσε να διαγραφεί "
+
+#: Controller/ConditionsController.php:29;67;99
+msgid "Invalid condition"
+msgstr "Άκυρη νόσος"
+
+#: Controller/ConditionsController.php:46;71
+msgid "The condition has been saved"
+msgstr "Η νόσος αποθηκεύτηκε"
+
+#: Controller/ConditionsController.php:49;74
+msgid "The condition could not be saved. Please, try again."
+msgstr "Η νόσος δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά. "
+
+#: Controller/ConditionsController.php:103
+msgid "Condition deleted"
+msgstr "Η νόσος διαγράφτηκε"
+
+#: Controller/ConditionsController.php:106
+msgid "Condition was not deleted"
+msgstr "Η νόσος δεν μπόρεσε να διαγραφεί "
+
+#: Controller/ContactsController.php:16
+msgid "Contact Us"
+msgstr "Επικοινωνήστε μαζί μας"
+
+#: Controller/ContactsController.php:25
+msgid "We have received your message and will get back to you shortly."
+msgstr "Λάβαμε το μήνυμα σας και θα σας απαντήσουμε σύντομα."
+
+#: Controller/ContactsController.php:35
+msgid "Please check the form fields for any errors"
+msgstr "Παρακαλώ ελέγξτε τα πεδία της φόρμας για τυχόν λάθη"
+
+#: Controller/ContactsController.php:81;113;138
+msgid "Invalid contact"
+msgstr "Άκυρη επαφή"
+
+#: Controller/ContactsController.php:96;117
+msgid "The contact has been saved"
+msgstr "Η επαφή αποθηκεύτηκε"
+
+#: Controller/ContactsController.php:99;120
+msgid "The contact could not be saved. Please, try again."
+msgstr "Η επαφή δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά."
+
+#: Controller/ContactsController.php:142
+msgid "Contact deleted"
+msgstr "Η επαφή διαγράφτηκε"
+
+#: Controller/ContactsController.php:145
+msgid "Contact was not deleted"
+msgstr "Η επαφή δεν μπόρεσε να διαγραφεί "
+
+#: Controller/FavouritesController.php:14;60
+msgid "You need to be logged in to favourite items"
+msgstr "Θα πρέπει να συνδεθείτε για να μπορέσετε να επιλέξετε τα αγαπημένα σας"
+
+#: Controller/FavouritesController.php:50
+msgid "Thanks! The item has been added to your favourites."
+msgstr "Ευχαριστούμε! Η επιλογή σας προστέθηκε στα αγαπημένα σας."
+
+#: Controller/FavouritesController.php:51
+msgid "Sorry, we couldn't process that request. Please try again later."
+msgstr ""
+"Συγγνώμη, δεν μπορέσαμε να ολοκληρώσουμε το αίτημα σας. Παρακαλώ, δοκιμάστε "
+"αργότερα."
+
+#: Controller/FavouritesController.php:83
+msgid "Thanks! The item has been removed from your favourites."
+msgstr "Ευχαριστούμε! Η επιλογή σας αφαιρέθηκε από τα αγαπημένα σας."
+
+#: Controller/FavouritesController.php:84
+msgid ""
+"Sorry, we couldn't find that favourite or an error occurred. Please try "
+"again later."
+msgstr ""
+"Συγγνώμη, δεν βρέθηκε το αγαπημένο σας ή έγινε κάποιο σφάλμα. Παρακαλώ "
+"δοκιμάστε αργότερα."
+
+#: Controller/FavouritesController.php:110;145;173
+msgid "Invalid favourite"
+msgstr "Άκυρο αγαπημένο"
+
+#: Controller/FavouritesController.php:125;149
+msgid "The favourite has been saved"
+msgstr "Το αγαπημένο σας αποθηκεύτηκε"
+
+#: Controller/FavouritesController.php:128;152
+msgid "The favourite could not be saved. Please, try again."
+msgstr ""
+"Το αγαπημένο σας δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά. "
+
+#: Controller/FavouritesController.php:177
+msgid "Favourite deleted"
+msgstr "Το αγαπημένο σας διαγράφτηκε"
+
+#: Controller/FavouritesController.php:180
+msgid "Favourite was not deleted"
+msgstr "Το αγαπημένο σας δεν μπόρεσε να διαγραφεί"
+
+#: Controller/NetworkCategoriesController.php:37;77;111
+msgid "Invalid network category"
+msgstr "Άκυρη κατηγορία δικτύου"
+
+#: Controller/NetworkCategoriesController.php:54;81
+msgid "The network category has been saved."
+msgstr "Η κατηγορία δικτύου αποθηκεύτηκε"
+
+#: Controller/NetworkCategoriesController.php:57;84
+msgid "The network category could not be saved. Please, try again."
+msgstr ""
+"Η κατηγορία δικτύου δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά. "
+
+#: Controller/NetworkCategoriesController.php:115
+msgid "The network category has been deleted."
+msgstr "Η κατηγορία δικτύου διαγράφτηκε"
+
+#: Controller/NetworkCategoriesController.php:117
+msgid "The network category could not be deleted. Please, try again."
+msgstr ""
+"Η κατηγορία δικτύου δεν μπόρεσε να διαγραφεί.  Παρακαλώ, δοκιμάστε ξανά. "
+
+#: Controller/NetworkMembersController.php:37;75;106
+msgid "Invalid network member"
+msgstr "Άκυρο μέλος δικτύου"
+
+#: Controller/NetworkMembersController.php:52;79
+msgid "The network member has been saved."
+msgstr "Το μέλος δικτύου αποθηκεύτηκε"
+
+#: Controller/NetworkMembersController.php:55;82
+msgid "The network member could not be saved. Please, try again."
+msgstr ""
+"Το μέλος δικτύου δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά. "
+
+#: Controller/NetworkMembersController.php:110
+msgid "The network member has been deleted."
+msgstr "Το μέλος δικτύου διαγράφτηκε"
+
+#: Controller/NetworkMembersController.php:112
+msgid "The network member could not be deleted. Please, try again."
+msgstr "Το μέλος δικτύου δεν μπόρεσε να διαγραφεί.  Παρακαλώ, δοκιμάστε ξανά."
+
+#: Controller/NetworkTypesController.php:32;58;92;122
+msgid "Invalid network type"
+msgstr "Άκυρος τύπος δικτύου "
+
+#: Controller/NetworkTypesController.php:74;96
+msgid "The network type has been saved."
+msgstr "Ο τύπος δικτύου δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά. "
+
+#: Controller/NetworkTypesController.php:77;99
+msgid "The network type could not be saved. Please, try again."
+msgstr "Ο τύπος δικτύου αποθηκεύτηκε"
+
+#: Controller/NetworkTypesController.php:126
+msgid "The network type has been deleted."
+msgstr "Ο τύπος δικτύου διαγράφτηκε"
+
+#: Controller/NetworkTypesController.php:128
+msgid "The network type could not be deleted. Please, try again."
+msgstr "Ο τύπος δικτύου δεν μπόρεσε να διαγραφεί.  Παρακαλώ, δοκιμάστε ξανά."
+
+#: Controller/PagesController.php:29
+msgid "404 - Page Not Found"
+msgstr "404 - Η σελίδα δεν βρέθηκε"
+
+#: Controller/PagesController.php:67;101;131
+msgid "Invalid page"
+msgstr "Άκυρη σελίδα"
+
+#: Controller/PagesController.php:82;105
+msgid "The page has been saved"
+msgstr "Η σελίδα αποθηκεύτηκε"
+
+#: Controller/PagesController.php:85;108
+msgid "The page could not be saved. Please, try again."
+msgstr "Η σελίδα δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά. "
+
+#: Controller/PagesController.php:135
+msgid "Page deleted"
+msgstr "Η σελίδα διαγράφτηκε"
+
+#: Controller/PagesController.php:138
+msgid "Page was not deleted"
+msgstr "Η σελίδα δεν μπόρεσε να διαγραφεί "
+
+#: Controller/ResponsesController.php:89
+msgid ""
+"Your customised map is below. Your account information will arrive via email "
+"- please check your junk mail folder if you don't see it. "
+msgstr ""
+"Ο προσαρμοσμένος χάρτη σας είναι παρακάτω. Τα στοιχεία του λογαριασμού σας, "
+"θα φτάσουν μέσω ηλεκτρονικού ταχυδρομείου - παρακαλώ ελέγξτε το φάκελο "
+"ανεπιθύμητης αλληλογραφίας σας, αν δεν το βλέπετε."
+
+#: Controller/ResponsesController.php:91
+msgid "Your responses have been saved. "
+msgstr "Οι απαντήσεις σας έχουν αποθηκευτεί."
+
+#: Controller/ResponsesController.php:98
+msgid ""
+"Please check your entry below - some fields aren't right yet. Don't worry, "
+"we've kept all your answers."
+msgstr ""
+"Παρακαλώ έλεγξε την καταχώρησή σας - κάποια πεδία δεν είναι σωστά ακόμα. Μην "
+"ανησυχείτε, έχουμε κρατήσει όλες τις απαντήσεις σας."
+
+#: Controller/ResponsesController.php:154
+msgid ""
+"Please fill in the questionnaire to get your personalised network feedback."
+msgstr ""
+"Παρακαλώ, συμπληρώστε το ερωτηματολόγιο για να λάβετε την ενημέρωση για το "
+"προσωπικό σας δίκτυο."
+
+#: Controller/ResponsesController.php:234;271;298
+msgid "Invalid response"
+msgstr "Άκυρη απάντηση"
+
+#: Controller/ResponsesController.php:252;275
+msgid "The response has been saved"
+msgstr "Η απάντηση αποθηκεύτηκε"
+
+#: Controller/ResponsesController.php:255;278
+msgid "The response could not be saved. Please, try again."
+msgstr "Η απάντηση δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά. "
+
+#: Controller/ResponsesController.php:302
+msgid "Response deleted"
+msgstr "Η απάντηση διαγράφτηκε"
+
+#: Controller/ResponsesController.php:305
+msgid "Response was not deleted"
+msgstr "Η απάντηση δεν μπόρεσε να διαγραφεί"
+
+#: Controller/ServicesController.php:103
+msgid ""
+"You have not answered yes to any survey questions. To get your personalised "
+"map you must answer yes to some questions"
+msgstr ""
+"Δεν δώσατε καμία θετική απάντηση στις ερωτήσεις τις έρευνας. Για να "
+"μπορέσετε να λάβετε την ενημέρωση για το προσωπικό σας χάρτη θα πρέπει να "
+"απαντήσετε \"ναι\" σε κάποιες ερωτήσεις"
+
+#: Controller/ServicesController.php:106
+msgid "Please fill in the questionnaire to get your personalised map."
+msgstr ""
+"Παρακαλώ, συμπληρώστε το ερωτηματολόγιο για να λάβετε την ενημέρωση για τον "
+"προσωπικό σας χάρτη"
+
+#: Controller/ServicesController.php:144
+msgid "Please log in to view favourites."
+msgstr "Παρακαλώ, συνδεθείτε για να δείτε τα αγαπημένα σας."
+
+#: Controller/ServicesController.php:599;659;711
+msgid "Invalid service"
+msgstr "Άκυρη υπηρεσία"
+
+#: Controller/ServicesController.php:614;663
+msgid "The service has been saved"
+msgstr "Η υπηρεσία αποθηκεύτηκε"
+
+#: Controller/ServicesController.php:631;688
+msgid "The service could not be saved. Please, try again."
+msgstr "Η υπηρεσία δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά. "
+
+#: Controller/ServicesController.php:715
+msgid "Service deleted"
+msgstr "Η υπηρεσία διαγράφτηκε"
+
+#: Controller/ServicesController.php:718
+msgid "Service was not deleted"
+msgstr "Η υπηρεσία δεν μπόρεσε να διαγραφεί "
+
+#: Controller/StatementsController.php:29;67;98
+msgid "Invalid statement"
+msgstr "Άκυρη δήλωση"
+
+#: Controller/StatementsController.php:46;71
+msgid "The statement has been saved"
+msgstr "Η δήλωση αποθηκεύτηκε"
+
+#: Controller/StatementsController.php:49;74
+msgid "The statement could not be saved. Please, try again."
+msgstr "Η δήλωση δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά. "
+
+#: Controller/StatementsController.php:102
+msgid "Statement deleted"
+msgstr "Η δήλωση διαγράφτηκε"
+
+#: Controller/StatementsController.php:105
+msgid "Statement was not deleted"
+msgstr "Η δήλωση δεν μπόρεσε να διαγραφεί "
+
+#: Controller/UsersController.php:19
+msgid "Only super-administrators can add/edit user accounts."
+msgstr ""
+"Μόνο υπέρ-διαχειριστές μπορούν να προσθέσουν/ επεξεργαστούν λογαριασμούς "
+"χρηστών"
+
+#: Controller/UsersController.php:46
+msgid "Invalid username or password, please try again."
+msgstr "Άκυρο όνομα χρήστη ή κωδικό πρόσβασης, παρακαλώ δοκιμάστε ξανά."
+
+#: Controller/UsersController.php:46
+msgid "Click here if you've forgotten your password."
+msgstr "Πατήστε εδώ εάν έχετε ξεχάσει τον κωδικό σας."
+
+#: Controller/UsersController.php:55
+msgid "You are now logged out."
+msgstr "Έχετε αποσυνδεθεί τώρα."
+
+#: Controller/UsersController.php:55
+msgid " Thanks for using "
+msgstr "Ευχαριστούμε για τη χρήση"
+
+#: Controller/UsersController.php:68
+msgid "Invalid Response ID"
+msgstr "Άκυρο ID απάντησης"
+
+#: Controller/UsersController.php:92 View/Elements/loggedin-buttons.ctp:3
+#: View/Users/account.ctp:4
+msgid "My Account"
+msgstr "Ο ΛΟΓΑΡΓΙΑΣΜΟΣ ΜΟΥ"
+
+#: Controller/UsersController.php:112
+msgid "Account updated."
+msgstr "Ο λογαριασμός μου"
+
+#: Controller/UsersController.php:114;196
+msgid "Please double check your entry..."
+msgstr "Παρακαλώ, ελέγξτε ξανά την καταχώρηση σας..."
+
+#: Controller/UsersController.php:124 View/Users/login.ctp:21
+msgid "Forgot password"
+msgstr "Ξεχάσετε τον κωδικό σας"
+
+#: Controller/UsersController.php:152
+msgid "Password Reset for your "
+msgstr "Έγινε επαναφορά του κωδικού σας"
+
+#: Controller/UsersController.php:159
+msgid "Sorry, that account could not be found."
+msgstr "Συγγνώμη, ο λογαριασμός δε βρέθηκε"
+
+#: Controller/UsersController.php:190
+msgid "Password changed for your "
+msgstr "Έγινε αλλαγή του κωδικού σας"
+
+#: Controller/UsersController.php:203
+msgid "Sorry, that reset link is invalid."
+msgstr "Συγγνώμη, η σύνδεση επαναφοράς είναι άκυρη."
+
+#: Controller/UsersController.php:220;242;266
+msgid "Invalid user"
+msgstr "Άκυρος χρήστης"
+
+#: Controller/UsersController.php:230;250
+msgid "The user has been saved"
+msgstr "Ο χρήστης αποθηκεύτηκε"
+
+#: Controller/UsersController.php:233;253
+msgid "The user could not be saved. Please, try again."
+msgstr "Ο χρήστης δεν μπόρεσε να αποθηκευτεί. Παρακαλώ, δοκιμάστε ξανά. "
+
+#: Controller/UsersController.php:270
+msgid "User deleted"
+msgstr "Ο χρήστης διαγράφτηκε"
+
+#: Controller/UsersController.php:273
+msgid "User was not deleted"
+msgstr "Ο χρήστης δεν μπόρεσε να διαγραφεί "
+
+#: Plugin/Twitter/Controller/TwitterController.php:171
+msgid "test status message failed"
+msgstr ""
+
+#: Plugin/Twitter/Controller/TwitterController.php:174
+msgid ""
+"no user to tie this twitter account to (probably need to auto create a user "
+"on our end"
+msgstr ""
+
+#: Plugin/Twitter/Lib/Utility/Twitter.php:196
+msgid "Invalid Endpoint: %s"
+msgstr ""
+
+#: Plugin/Twitter/View/Twitter/dashboard.ctp:13
+msgid "Credentials found reload page to check authorization."
+msgstr ""
+
+#: Plugin/Twitter/View/Twitter/dashboard.ctp:15
+msgid "No credentials found you must authorize."
+msgstr ""
+
+#: Plugin/Twitter/View/Twitter/dashboard.ctp:23
+msgid "Connect"
+msgstr ""
+
+#: View/Categories/admin_add.ctp:4
+msgid "Admin Add Category"
+msgstr "Διαχειριστή πρόσθεσε κατηγορία"
+
+#: View/Categories/admin_add.ctp:11 View/Categories/admin_edit.ctp:13
+#: View/Conditions/admin_add.ctp:10 View/Conditions/admin_edit.ctp:11
+#: View/Contacts/add.ctp:26 View/Contacts/admin_add.ctp:11
+#: View/Contacts/admin_edit.ctp:12 View/Favourites/admin_add.ctp:10
+#: View/Favourites/admin_edit.ctp:11 View/NetworkCategories/admin_add.ctp:10
+#: View/NetworkCategories/admin_edit.ctp:11
+#: View/NetworkMembers/admin_add.ctp:12 View/NetworkMembers/admin_edit.ctp:13
+#: View/NetworkTypes/admin_add.ctp:11 View/NetworkTypes/admin_edit.ctp:12
+#: View/Pages/admin_add.ctp:10 View/Pages/admin_edit.ctp:11
+#: View/Responses/admin_add.ctp:21 View/Responses/admin_edit.ctp:18
+#: View/Services/admin_add.ctp:51 View/Services/admin_edit.ctp:58
+#: View/Statements/admin_add.ctp:12 View/Statements/admin_edit.ctp:13
+#: View/Users/admin_add.ctp:12 View/Users/admin_edit.ctp:13
+msgid "Submit"
+msgstr "Υποβολή"
+
+#: View/Categories/admin_edit.ctp:4
+msgid "Admin Edit Category"
+msgstr "Διαχειριστή επεξεργάσου την κατηγορία"
+
+#: View/Categories/admin_index.ctp:2
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: View/Categories/admin_index.ctp:10 View/Categories/admin_view.ctp:51;90;129
+#: View/Conditions/admin_index.ctp:7 View/Conditions/admin_view.ctp:33
+#: View/Contacts/admin_index.ctp:11 View/Favourites/admin_index.ctp:8
+#: View/Layouts/admin.ctp:46 View/NetworkCategories/admin_index.ctp:10
+#: View/NetworkCategories/admin_view.ctp:46;84
+#: View/NetworkMembers/admin_index.ctp:12 View/NetworkTypes/admin_index.ctp:10
+#: View/NetworkTypes/admin_view.ctp:46 View/Pages/admin_index.ctp:9
+#: View/Responses/admin_index.ctp:11 View/Responses/admin_view.ctp:78;103;139
+#: View/Services/admin_index.ctp:10 View/Services/admin_view.ctp:113;149
+#: View/Statements/admin_index.ctp:10 View/Statements/admin_view.ctp:51;97
+#: View/Users/admin_index.ctp:10 View/Users/admin_view.ctp:117
+msgid "Actions"
+msgstr "Δράσεις"
+
+#: View/Categories/admin_index.ctp:22
+#: View/Categories/admin_view.ctp:64;103;142
+#: View/Conditions/admin_index.ctp:14 View/Conditions/admin_view.ctp:52
+#: View/Contacts/admin_index.ctp:22 View/Favourites/admin_index.ctp:20
+#: View/NetworkCategories/admin_index.ctp:22
+#: View/NetworkCategories/admin_view.ctp:57;96
+#: View/NetworkMembers/admin_index.ctp:28 View/NetworkTypes/admin_index.ctp:20
+#: View/NetworkTypes/admin_view.ctp:56 View/Pages/admin_index.ctp:18
+#: View/Responses/admin_index.ctp:25 View/Responses/admin_view.ctp:87;113;151
+#: View/Services/admin_index.ctp:20 View/Services/admin_view.ctp:123;162
+#: View/Statements/admin_index.ctp:20 View/Statements/admin_view.ctp:64;117
+#: View/Users/admin_index.ctp:20 View/Users/admin_view.ctp:127
+msgid "View"
+msgstr "Προβολή"
+
+#: View/Categories/admin_index.ctp:23
+#: View/Categories/admin_view.ctp:65;104;143
+#: View/Conditions/admin_index.ctp:15 View/Conditions/admin_view.ctp:53
+#: View/Contacts/admin_index.ctp:23 View/Favourites/admin_index.ctp:21
+#: View/NetworkCategories/admin_index.ctp:23
+#: View/NetworkCategories/admin_view.ctp:58;97
+#: View/NetworkMembers/admin_index.ctp:29 View/NetworkTypes/admin_index.ctp:21
+#: View/NetworkTypes/admin_view.ctp:57 View/Pages/admin_index.ctp:19
+#: View/Responses/admin_index.ctp:26 View/Responses/admin_view.ctp:88;114;152
+#: View/Services/admin_index.ctp:21 View/Services/admin_view.ctp:124;163
+#: View/Statements/admin_index.ctp:21 View/Statements/admin_view.ctp:65;118
+#: View/Users/admin_index.ctp:21 View/Users/admin_view.ctp:128
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: View/Categories/admin_index.ctp:24
+#: View/Categories/admin_view.ctp:66;105;144
+#: View/Conditions/admin_index.ctp:16 View/Conditions/admin_view.ctp:54
+#: View/Contacts/admin_index.ctp:24 View/Favourites/admin_index.ctp:22
+#: View/NetworkCategories/admin_index.ctp:24
+#: View/NetworkCategories/admin_view.ctp:59;98
+#: View/NetworkMembers/admin_index.ctp:30 View/NetworkTypes/admin_index.ctp:22
+#: View/NetworkTypes/admin_view.ctp:58 View/Pages/admin_index.ctp:20
+#: View/Responses/admin_index.ctp:27 View/Responses/admin_view.ctp:89;153
+#: View/Services/admin_index.ctp:22 View/Services/admin_view.ctp:125;164
+#: View/Statements/admin_index.ctp:22 View/Statements/admin_view.ctp:66;119
+#: View/Users/admin_index.ctp:22 View/Users/admin_view.ctp:129
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: View/Categories/admin_index.ctp:24
+#: View/Categories/admin_view.ctp:66;105;144
+#: View/Conditions/admin_index.ctp:16 View/Conditions/admin_view.ctp:54
+#: View/Contacts/admin_index.ctp:24 View/Favourites/admin_index.ctp:22
+#: View/NetworkCategories/admin_index.ctp:24
+#: View/NetworkCategories/admin_view.ctp:59;98
+#: View/NetworkMembers/admin_index.ctp:30 View/NetworkTypes/admin_index.ctp:22
+#: View/NetworkTypes/admin_view.ctp:58 View/Pages/admin_index.ctp:20
+#: View/Responses/admin_index.ctp:27 View/Responses/admin_view.ctp:89;153
+#: View/Services/admin_index.ctp:22 View/Services/admin_view.ctp:125;164
+#: View/Statements/admin_index.ctp:22 View/Statements/admin_view.ctp:66;119
+#: View/Users/admin_index.ctp:22 View/Users/admin_view.ctp:129
+msgid "Are you sure you want to delete # %s?"
+msgstr "Είστε σίγουρος ότι θέλετε να διαγράψετε το #%?"
+
+#: View/Categories/admin_index.ctp:32 View/Conditions/admin_index.ctp:24
+#: View/Contacts/admin_index.ctp:32 View/Favourites/admin_index.ctp:30
+#: View/NetworkCategories/admin_index.ctp:32
+#: View/NetworkMembers/admin_index.ctp:38 View/NetworkTypes/admin_index.ctp:30
+#: View/Pages/admin_index.ctp:28 View/Responses/admin_index.ctp:35
+#: View/Services/admin_index.ctp:30 View/Statements/admin_index.ctp:30
+#: View/Users/admin_index.ctp:30
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+"Σελίδα {:page} από {:pages}, παρουσιάζονται {:current} δεδομένα από {:count} "
+"συνολικά, ξεκινώντας από το {:start}, με τελευταίο το {:end} "
+
+#: View/Categories/admin_index.ctp:37 View/Conditions/admin_index.ctp:29
+#: View/Contacts/admin_index.ctp:37 View/Favourites/admin_index.ctp:35
+#: View/NetworkCategories/admin_index.ctp:37
+#: View/NetworkMembers/admin_index.ctp:43 View/NetworkTypes/admin_index.ctp:35
+#: View/Pages/admin_index.ctp:33 View/Responses/admin_index.ctp:40
+#: View/Services/admin_index.ctp:35 View/Statements/admin_index.ctp:35
+#: View/Users/admin_index.ctp:35
+msgid "previous"
+msgstr "προηγούμενο"
+
+#: View/Categories/admin_index.ctp:39 View/Conditions/admin_index.ctp:31
+#: View/Contacts/admin_index.ctp:39 View/Favourites/admin_index.ctp:37
+#: View/NetworkCategories/admin_index.ctp:39
+#: View/NetworkMembers/admin_index.ctp:45 View/NetworkTypes/admin_index.ctp:37
+#: View/Pages/admin_index.ctp:35 View/Responses/admin_index.ctp:42
+#: View/Services/admin_index.ctp:37 View/Statements/admin_index.ctp:37
+#: View/Users/admin_index.ctp:37
+msgid "next"
+msgstr "επόμενο"
+
+#: View/Categories/admin_view.ctp:2
+msgid "Category"
+msgstr "Κατηγορία"
+
+#: View/Categories/admin_view.ctp:4;45;84;123
+#: View/Conditions/admin_view.ctp:4;21 View/Contacts/admin_view.ctp:4
+#: View/Favourites/admin_view.ctp:4
+#: View/NetworkCategories/admin_view.ctp:4;40;77
+#: View/NetworkMembers/admin_view.ctp:4 View/NetworkTypes/admin_view.ctp:4;41
+#: View/Pages/admin_view.ctp:4 View/Responses/admin_view.ctp:4;76;100;132
+#: View/Services/admin_view.ctp:4;110;143
+#: View/Statements/admin_view.ctp:4;45;84 View/Users/admin_view.ctp:4;50;114
+msgid "Id"
+msgstr "Id"
+
+#: View/Categories/admin_view.ctp:9;46;85 View/Conditions/admin_view.ctp:9;24
+#: View/Contacts/admin_view.ctp:9
+#: View/NetworkCategories/admin_view.ctp:9;41;78
+#: View/NetworkMembers/admin_view.ctp:9 View/NetworkTypes/admin_view.ctp:9;43
+#: View/Pages/admin_view.ctp:9 View/Responses/admin_view.ctp:19;77;133
+#: View/Services/admin_view.ctp:9;144 View/Statements/admin_view.ctp:46;87
+#: View/Users/admin_view.ctp:62
+msgid "Name"
+msgstr "Όνομα"
+
+#: View/Categories/admin_view.ctp:14
+msgid "Parent Category"
+msgstr "Κατηγορία γονέα"
+
+#: View/Categories/admin_view.ctp:19 View/NetworkTypes/admin_view.ctp:14
+#: View/Services/admin_view.ctp:59 View/Statements/admin_view.ctp:14
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: View/Categories/admin_view.ctp:24;48;87;126
+#: View/Conditions/admin_view.ctp:30 View/Contacts/admin_view.ctp:24
+#: View/NetworkCategories/admin_view.ctp:14;42;80
+#: View/NetworkMembers/admin_view.ctp:19
+#: View/NetworkTypes/admin_view.ctp:24;44 View/Pages/admin_view.ctp:19
+#: View/Responses/admin_view.ctp:54;135 View/Services/admin_view.ctp:89;146
+#: View/Statements/admin_view.ctp:24;48;94 View/Users/admin_view.ctp:29;86
+msgid "Created"
+msgstr "Δημιουργήθηκε"
+
+#: View/Categories/admin_view.ctp:29;49;88;127
+#: View/Conditions/admin_view.ctp:31 View/Contacts/admin_view.ctp:29
+#: View/NetworkCategories/admin_view.ctp:19;43;81
+#: View/NetworkMembers/admin_view.ctp:24
+#: View/NetworkTypes/admin_view.ctp:29;45 View/Pages/admin_view.ctp:24
+#: View/Responses/admin_view.ctp:59;136 View/Services/admin_view.ctp:94;147
+#: View/Statements/admin_view.ctp:29;49;95 View/Users/admin_view.ctp:34;90
+msgid "Modified"
+msgstr "Επεξεργάστηκε"
+
+#: View/Categories/admin_view.ctp:34;50;89;128
+#: View/Conditions/admin_view.ctp:32
+#: View/NetworkCategories/admin_view.ctp:24;44
+#: View/NetworkMembers/admin_view.ctp:29 View/Pages/admin_view.ctp:29
+#: View/Responses/admin_view.ctp:64 View/Services/admin_view.ctp:99;148
+#: View/Statements/admin_view.ctp:34;50;96 View/Users/admin_view.ctp:39;94
+msgid "Deleted"
+msgstr "Διαγράφτηκε"
+
+#: View/Categories/admin_view.ctp:41 View/Services/admin_view.ctp:139
+#: View/Statements/admin_view.ctp:41
+msgid "Related Categories"
+msgstr "Σχετικές κατηγορίες"
+
+#: View/Categories/admin_view.ctp:47 View/NetworkCategories/admin_view.ctp:45
+#: View/Services/admin_view.ctp:145 View/Statements/admin_view.ctp:47
+msgid "Parent Id"
+msgstr "Id γονέα"
+
+#: View/Categories/admin_view.ctp:75
+msgid "New Child Category"
+msgstr "Κατηγορία νέου τέκνου"
+
+#: View/Categories/admin_view.ctp:80
+msgid "Related Services"
+msgstr "Σχετικές υπηρεσίες"
+
+#: View/Categories/admin_view.ctp:86 View/Services/admin_view.ctp:34
+msgid "Town"
+msgstr "Πόλη"
+
+#: View/Categories/admin_view.ctp:114 View/Layouts/admin.ctp:99
+msgid "New Service"
+msgstr "Νέα Υπηρεσία"
+
+#: View/Categories/admin_view.ctp:119 View/Responses/admin_view.ctp:96
+msgid "Related Statements"
+msgstr "Σχετικές δηλώσεις"
+
+#: View/Categories/admin_view.ctp:124 View/Responses/admin_view.ctp:101
+#: View/Statements/admin_view.ctp:2;9
+msgid "Statement"
+msgstr "Δήλωση"
+
+#: View/Categories/admin_view.ctp:125 View/Statements/admin_view.ctp:19
+msgid "Order"
+msgstr "Παραγγελία"
+
+#: View/Categories/admin_view.ctp:153 View/Layouts/admin.ctp:63
+#: View/Responses/admin_view.ctp:123
+msgid "New Statement"
+msgstr "Νέα Δήλωση"
+
+#: View/Conditions/admin_add.ctp:4
+msgid "Admin Add Condition"
+msgstr "Διαχειριστή πρόσθεσε νόσο"
+
+#: View/Conditions/admin_edit.ctp:4
+msgid "Admin Edit Condition"
+msgstr "Διαχειριστή επεξεργάσου την νόσο"
+
+#: View/Conditions/admin_index.ctp:2
+msgid "Conditions"
+msgstr "Νόσοι"
+
+#: View/Conditions/admin_view.ctp:2
+msgid "Condition"
+msgstr "Νόσος"
+
+#: View/Conditions/admin_view.ctp:17 View/NetworkTypes/admin_view.ctp:37
+#: View/Statements/admin_view.ctp:80 View/Users/admin_view.ctp:47
+msgid "Related Responses"
+msgstr "Σχετικές απαντήσεις"
+
+#: View/Conditions/admin_view.ctp:22 View/NetworkTypes/admin_view.ctp:42
+#: View/Services/admin_view.ctp:111 View/Statements/admin_view.ctp:85
+#: View/Users/admin_view.ctp:54;115
+msgid "User Id"
+msgstr "Id χρήστη"
+
+#: View/Conditions/admin_view.ctp:23 View/Responses/admin_view.ctp:14
+#: View/Statements/admin_view.ctp:86 View/Users/admin_view.ctp:58
+msgid "Title"
+msgstr "Τίτλος"
+
+#: View/Conditions/admin_view.ctp:25 View/Responses/admin_view.ctp:24
+#: View/Statements/admin_view.ctp:88 View/Users/admin_view.ctp:66
+msgid "Age"
+msgstr "Ηλικία"
+
+#: View/Conditions/admin_view.ctp:26 View/Responses/admin_view.ctp:29
+#: View/Statements/admin_view.ctp:89 View/Users/admin_view.ctp:70
+msgid "Gender"
+msgstr "Φύλο"
+
+#: View/Conditions/admin_view.ctp:27 View/Responses/admin_view.ctp:34
+#: View/Statements/admin_view.ctp:90 View/Users/admin_view.ctp:74
+msgid "Marital Status"
+msgstr "Οικογενειακή Κατάσταση"
+
+#: View/Conditions/admin_view.ctp:28 View/Responses/admin_view.ctp:39
+#: View/Services/admin_view.ctp:39 View/Statements/admin_view.ctp:91
+#: View/Users/admin_view.ctp:78
+msgid "Postcode"
+msgstr "Ταχυδρομικός κώδικας"
+
+#: View/Conditions/admin_view.ctp:29 View/Responses/admin_view.ctp:44
+#: View/Statements/admin_view.ctp:92 View/Users/admin_view.ctp:82
+msgid "Telephone"
+msgstr "Τηλέφωνο:"
+
+#: View/Conditions/admin_view.ctp:63 View/Layouts/admin.ctp:79
+#: View/NetworkTypes/admin_view.ctp:67 View/Statements/admin_view.ctp:128
+msgid "New Response"
+msgstr "Νέα απάντηση"
+
+#: View/Contacts/add.ctp:18
+msgid "Ask us a question"
+msgstr "Ρωτήστε μας"
+
+#: View/Contacts/add.ctp:23
+msgid "Your Name"
+msgstr "Το Όνομα σας"
+
+#: View/Contacts/add.ctp:24
+msgid "Your Email Address"
+msgstr "Η Ηλεκτρονική σας διεύθυνση"
+
+#: View/Contacts/add.ctp:25
+msgid "Your Question"
+msgstr "Η Ερώτηση σας"
+
+#: View/Contacts/admin_add.ctp:4
+msgid "Admin Add Contact"
+msgstr "Διαχειριστή πρόσθεσε επαφή"
+
+#: View/Contacts/admin_edit.ctp:4
+msgid "Admin Edit Contact"
+msgstr "Διαχειριστή επεξεργάσου την επαφή"
+
+#: View/Contacts/admin_index.ctp:2 View/Layouts/admin.ctp:117
+msgid "Contact Form Submissions"
+msgstr "Φόρμα επικοινωνίας για υποβολές"
+
+#: View/Contacts/admin_view.ctp:2
+msgid "Contact Form Submission"
+msgstr "Φόρμα επικοινωνίας για υποβολή"
+
+#: View/Contacts/admin_view.ctp:14 View/Elements/login-form.ctp:3
+#: View/Services/admin_view.ctp:49 View/Users/admin_view.ctp:9
+msgid "Email"
+msgstr "Ηλεκτρονική διεύθυνση"
+
+#: View/Contacts/admin_view.ctp:19
+msgid "Question"
+msgstr "Ερώτηση"
+
+#: View/Elements/admin_quick_service.ctp:6
+msgid "Services Quick-Add"
+msgstr "Υπηρεσίες Γρήγορης-Προσθήκης"
+
+#: View/Elements/category_filter.ctp:4
+msgid "Filter results by:"
+msgstr "Φιλτράρισμα αποτελεσμάτων με:"
+
+#: View/Elements/category_filter.ctp:4
+msgid "Filter my results by:"
+msgstr "Φιλτράρισμα των αποτελεσμάτων μου με:"
+
+#: View/Elements/category_filter.ctp:10
+msgid "All"
+msgstr "Όλα"
+
+#: View/Elements/category_filter.ctp:10 View/Services/index.ctp:71
+#: View/Services/view.ctp:61
+msgid "My Results"
+msgstr "Τα αποτελέσματα μου"
+
+#: View/Elements/category_filter.ctp:37
+msgid "Click on the categories above if you would like to filter your search"
+msgstr ""
+"Κάντε κλικ σε μια από τις παραπάνω κατηγορίες εάν επιθυμείτε να φιλτράρετε "
+"την έρευνα σας"
+
+#: View/Elements/getting_there.ctp:2 View/Services/view.ctp:76
+msgid "Getting there"
+msgstr "Πώς θα φτάσετε εκεί"
+
+#: View/Elements/getting_there.ctp:4 View/Services/view.ctp:78
+msgid ""
+"Fill in your current location and the location of your destination to get a "
+"public transport route."
+msgstr ""
+"Συμπληρώστε την τρέχουσα θέση σας και την τοποθεσία του προορισμού σας για "
+"να χρησιμοποιείτε τα μέσα μαζικής μεταφοράς."
+
+#: View/Elements/getting_there.ctp:5 View/Services/view.ctp:79
+msgid "You will be redirected to the GMPTE site to get your results"
+msgstr ""
+
+#: View/Elements/getting_there.ctp:15 View/Services/view.ctp:84
+msgid "Travelling..."
+msgstr "Ταξιδεύοντας…"
+
+#: View/Elements/getting_there.ctp:17
+msgid "From"
+msgstr "Από"
+
+#: View/Elements/getting_there.ctp:25
+msgid "Via (optional)"
+msgstr "Μέσω (προαιρετικό)"
+
+#: View/Elements/getting_there.ctp:30 View/Services/view.ctp:96
+msgid "Time And Date..."
+msgstr "Ώρα και Ημερομηνία"
+
+#: View/Elements/getting_there.ctp:33 View/Services/view.ctp:99
+msgid "Leave after"
+msgstr "Αναχώρηση μετά"
+
+#: View/Elements/getting_there.ctp:35 View/Services/view.ctp:101
+msgid "Arrive By"
+msgstr "Άφιξη μέχρι "
+
+#: View/Elements/getting_there.ctp:40 View/Services/view.ctp:106
+msgid "Time"
+msgstr "Ώρα"
+
+#: View/Elements/getting_there.ctp:48
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: View/Elements/getting_there.ctp:85
+msgid "Enter a date between %s and %s"
+msgstr "Εισάγετε μια ημερομηνία μεταξύ %s και %s "
+
+#: View/Elements/getting_there.ctp:88 View/Services/view.ctp:142
+msgid "Mode Of Transport..."
+msgstr "Μέσω μεταφοράς"
+
+#: View/Elements/getting_there.ctp:89 View/Services/view.ctp:143
+msgid "I would like to travel by..."
+msgstr "Θα ήθελα να ταξιδέψω με…"
+
+#: View/Elements/getting_there.ctp:94 View/Services/view.ctp:148
+msgid "Bus"
+msgstr "Λεωφορείο"
+
+#: View/Elements/getting_there.ctp:98 View/Services/view.ctp:152
+msgid "Metro"
+msgstr "Μετρό"
+
+#: View/Elements/getting_there.ctp:102 View/Services/view.ctp:156
+msgid "Ferry"
+msgstr "Φέρυ"
+
+#: View/Elements/getting_there.ctp:108 View/Services/view.ctp:162
+msgid "Rail"
+msgstr "Τρένο"
+
+#: View/Elements/getting_there.ctp:112 View/Services/view.ctp:166
+msgid "Coach"
+msgstr "Λεωφορείο"
+
+#: View/Elements/loggedin-buttons.ctp:4
+msgid "Log Out"
+msgstr "Αποσύνδεση"
+
+#: View/Elements/login-form.ctp:4 View/Users/admin_view.ctp:14
+msgid "Password"
+msgstr "Κωδικός"
+
+#: View/Elements/login-form.ctp:5
+msgid "Log In"
+msgstr "Είσοδος"
+
+#: View/Elements/questionnaire.ctp:4
+msgid "General Information about you"
+msgstr "Γενικές πληροφορίες για σας"
+
+#: View/Elements/questionnaire.ctp:5
+msgid "Click 'Next Question' once you have completed this page"
+msgstr ""
+"Πατήστε κλικ στην \"Επόμενη Ερώτηση\" μόλις συμπληρώσετε αυτή τη σελίδα"
+
+#: View/Elements/questionnaire.ctp:9
+msgid "We need this to find services near you"
+msgstr ""
+"Αυτό το χρειαζόμαστε για να βρούμε τις υπηρεσίες που υπάρχουν κοντά σας"
+
+#: View/Elements/questionnaire.ctp:13
+msgid "Optional"
+msgstr "Προαιρετικά"
+
+#: View/Elements/questionnaire.ctp:14
+msgid ""
+"Optional. If you supply your email address, we'll save your answers and "
+"email you a login so you won't need to take the questionnaire again"
+msgstr ""
+"Προαιρετικό. Εάν καταχωρήσετε την ηλεκτρονική σας διεύθυνση, θα μπορέσουμε "
+"να σώσουμε τις απαντήσεις σας και να σας στείλουμε τα στοιχεία σας για να "
+"μπορέσετε να συνδέεστε με το πρόγραμμα χωρίς να επαναλαμβάνετε το "
+"ερωτηματολόγιο."
+
+#: View/Elements/questionnaire.ctp:19
+msgid "Male"
+msgstr "Άντρας"
+
+#: View/Elements/questionnaire.ctp:19
+msgid "Female"
+msgstr "Γυναίκα"
+
+#: View/Elements/questionnaire.ctp:19
+msgid "Please select your gender:"
+msgstr "Παρακαλώ επιλέξτε το φύλο σας:"
+
+#: View/Elements/questionnaire.ctp:20
+msgid "Please select your age range:"
+msgstr "Παρακαλώ επιλέξτε το εύρος ηλικίας σας:"
+
+#: View/Elements/questionnaire.ctp:21
+msgid "Do you have any of the following health conditions?"
+msgstr "Μήπως έχετε κάποια από τις παρακάτω ασθένειες;"
+
+#: View/Elements/questionnaire.ctp:21
+msgid "(Click all that are appropriate to you.)"
+msgstr "(Κάντε κλικ σε όσα θεωρείτε σχετικά με εσάς.)"
+
+#: View/Elements/questionnaire.ctp:32 View/Layouts/default.ctp:109
+#: View/Responses/my_network.ctp:3
+msgid "My Network"
+msgstr "Το Δίκτυο μου"
+
+#: View/Elements/questionnaire.ctp:43
+msgid "Daily"
+msgstr "Καθημερινά"
+
+#: View/Elements/questionnaire.ctp:44
+msgid "At least once a week"
+msgstr "Τουλάχιστον μια φορά την εβδομάδα"
+
+#: View/Elements/questionnaire.ctp:45
+msgid "At least once a month"
+msgstr "Τουλάχιστον μια φορά το μήνα"
+
+#: View/Elements/questionnaire.ctp:46
+msgid "Less often"
+msgstr "Λιγότερο συχνά"
+
+#: View/Elements/questionnaire.ctp:50
+msgid "Drag your pin over the trash icon above to delete it"
+msgstr ""
+"Τραβήξτε την καρφίτσα πάνω από το εικονίδιο του κάδου παραπάνω για να την "
+"διαγράψετε"
+
+#: View/Elements/questionnaire.ctp:54
+msgid "You"
+msgstr "Εσύ"
+
+#: View/Elements/questionnaire.ctp:56
+msgid ""
+"Please tell us about your network of friends, family and others you're in "
+"contact with, to help us supply you with the most useful results"
+msgstr ""
+"Παρακαλώ πείτε μας σχετικά με το δίκτυο των φίλων σας, της οικογένεια σας "
+"και άλλων προσώπων που έχετε επαφή, για να μπορέσουμε να σας δώσουμε με "
+"περισσότερο χρήσιμα αποτελέσματα"
+
+#: View/Elements/questionnaire.ctp:62
+msgid "Their name, or just a nickname if you prefer"
+msgstr "Το όνομά τους, ή απλά ένα ψευδώνυμο αν προτιμάτε"
+
+#: View/Elements/questionnaire.ctp:63
+msgid "How often are you in contact with them?"
+msgstr "Πόσο συχνά επικοινωνείτε μαζί τους;"
+
+#: View/Elements/questionnaire.ctp:64
+msgid "What type of relationship do they have to you"
+msgstr "Τι σχέση έχετε;"
+
+#: View/Elements/questionnaire.ctp:73
+msgid "Who are they?"
+msgstr "Ποιοι είναι;"
+
+#: View/Elements/questionnaire.ctp:121
+msgid ""
+"Once you have finished entering your information, drag your newly created "
+"pin to the diagram."
+msgstr ""
+"Μόλις έχετε ολοκλήρωση την καταχώρηση των πληροφοριών, σύρετε τη νέα "
+"καρφίτσα πάνω στο διάγραμμα. "
+
+#: View/Elements/questionnaire.ctp:134 View/Pages/admin_view.ctp:2
+msgid "Page"
+msgstr "Σελίδα "
+
+#: View/Elements/questionnaire.ctp:139
+msgid "No, I am not interested"
+msgstr "Όχι, δε με ενδιαφέρει"
+
+#: View/Elements/questionnaire.ctp:139
+msgid "Yes, I might be interested"
+msgstr "Ναι, μπορεί να με ενδιαφέρει"
+
+#: View/Elements/questionnaire.ctp:139
+msgid "Yes, I am definitely interested"
+msgstr "Ναι, σίγουρα με ενδιαφέρει"
+
+#: View/Elements/questionnaire.ctp:147
+msgid "I am interested in the following things"
+msgstr "Ενδιαφέρομαι για τα παρακάτω πράγματα"
+
+#: View/Elements/questionnaire.ctp:162
+msgid "Finish"
+msgstr "Τέλος"
+
+#: View/Elements/results_box.ctp:29 View/Elements/results_service.ctp:31
+msgid "Where?"
+msgstr "Πού;"
+
+#: View/Elements/results_box.ctp:34 View/Elements/results_service.ctp:36
+#: View/Layouts/default.ctp:111
+msgid "Contact"
+msgstr "Επαφή   "
+
+#: View/Elements/results_box.ctp:35 View/Elements/results_service.ctp:37
+msgid "Tel:"
+msgstr "Τηλ:"
+
+#: View/Elements/results_box.ctp:37 View/Elements/results_service.ctp:39
+msgid "Email:"
+msgstr "Email: "
+
+#: View/Elements/results_box.ctp:39 View/Elements/results_service.ctp:41
+msgid "Web:"
+msgstr "Ιστοσελίδα: "
+
+#: View/Elements/results_box.ctp:44 View/Elements/results_service.ctp:46
+msgid "Facebook"
+msgstr "Facebook "
+
+#: View/Elements/results_box.ctp:49 View/Elements/results_list.ctp:20
+#: View/Elements/results_service.ctp:17
+msgid "Favourite This"
+msgstr "Κάνε αυτό αγαπημένο"
+
+#: View/Elements/results_box.ctp:51 View/Elements/results_list.ctp:22
+#: View/Elements/results_service.ctp:19
+msgid "Remove from favourites"
+msgstr "Αφαίρεση από τα αγαπημένα"
+
+#: View/Elements/results_box.ctp:56 View/Elements/results_list.ctp:26
+msgid "Read More"
+msgstr "Διαβάστε περισσότερα"
+
+#: View/Elements/results_box.ctp:67 View/Services/index.ctp:68
+#: View/Services/view.ctp:59
+msgid "Print Your results"
+msgstr "Εκτύπωση των αποτελεσμάτων σας"
+
+#: View/Elements/results_box.ctp:96
+msgid "No Results"
+msgstr "Χωρίς αποτελέσματα"
+
+#: View/Elements/results_box.ctp:97
+msgid ""
+"Sorry, no results were found for this category in the chosen area. Please "
+"try widening the search area, or try another category or postcode."
+msgstr ""
+"Συγγνώμη, δεν βρέθηκαν αποτελέσματα στη συγκεκριμένη κατηγορία της "
+"επιλεγμένης περιοχής. Παρακαλώ, προσπαθήστε σε μεγαλύτερη περιοχή, ή "
+"επιλέξτε κάποια άλλη κατηγορία ή ταχυδρομικό κώδικα."
+
+#: View/Elements/results_service.ctp:27
+msgid "When?"
+msgstr "Πότε;"
+
+#: View/Elements/results_service.ctp:33
+msgid "Street view"
+msgstr "Street View"
+
+#: View/Elements/results_service.ctp:50
+msgid "Info"
+msgstr "Πληροφορίες"
+
+#: View/Elements/results_service.ctp:55
+msgid "Video"
+msgstr "Βίντεο"
+
+#: View/Elements/results_service.ctp:77
+msgid "Tweets from"
+msgstr "Tweets από "
+
+#: View/Elements/results_service.ctp:89
+msgid "Back to all Results"
+msgstr "Επιστροφή σε όλα τα Αποτελέσματα"
+
+#: View/Emails/text/forgot_password.ctp:3
+msgid ""
+"A password reset request has been received for your account. If this is "
+"correct please click the following link to generate a new password:"
+msgstr ""
+"Ένα αίτημα επαναφοράς κωδικού πρόσβασης έχει ληφθεί για λογαριασμό σας. Αν "
+"αυτό είναι σωστό, παρακαλούμε κάντε κλικ στο παρακάτω link για να "
+"δημιουργήσει ένα νέο κωδικό πρόσβασης:"
+
+#: View/Emails/text/forgot_password.ctp:7
+msgid ""
+"If you did not request a password reset, please delete this email and do not "
+"click the link."
+msgstr ""
+"Αν δεν ζητήσετε επαναφορά του κωδικού πρόσβασης, παρακαλούμε να διαγράψετε "
+"αυτό το ηλεκτρονικού ταχυδρομείου και να μην κάνετε κλικ στο σύνδεσμο."
+
+#: View/Emails/text/forgot_password.ctp:10
+#: View/Emails/text/new_password.ctp:10
+msgid "Thanks,"
+msgstr "Ευχαριστούμε, "
+
+#: View/Emails/text/new_password.ctp:3
+msgid "Your password has recently been changed."
+msgstr "Ο κωδικός σας έχει πρόσφατα αλλαχθεί."
+
+#: View/Emails/text/new_password.ctp:5
+msgid "You can log in at %s with your new details."
+msgstr "Μπορείτε να συνδεθείτε στο %s με τα νέα σας στοιχεία."
+
+#: View/Emails/text/new_password.ctp:7
+msgid ""
+"If you did not recently request a password reset, please contact us straight "
+"away."
+msgstr ""
+"Σε περίπτωση που δεν έχετε στείλει πρόσφατα αίτημα για αλλαγή του κωδικού "
+"πρόσβασης, παρακαλώ επικοινωνήστε άμεσα μαζί μας."
+
+#: View/Emails/text/new_user.ctp:20
+msgid "Thank you for filling in the questionnaire."
+msgstr "Σας ευχαριστούμε για τη συμπλήρωση του ερωτηματολογίου."
+
+#: View/Favourites/admin_add.ctp:4
+msgid "Admin Add Favourite"
+msgstr "Διαχειριστή πρόσθεσε αγαπημένο"
+
+#: View/Favourites/admin_edit.ctp:4
+msgid "Admin Edit Favourite"
+msgstr "Διαχειριστή επεξεργάσου το αγαπημένο"
+
+#: View/Favourites/admin_index.ctp:2
+msgid "Favourites"
+msgstr "Αγαπημένα"
+
+#: View/Favourites/admin_view.ctp:2
+msgid "Favourite"
+msgstr "Αγαπημένο"
+
+#: View/Favourites/admin_view.ctp:9 View/Responses/admin_view.ctp:9
+#: View/Users/admin_view.ctp:2
+msgid "User"
+msgstr "Χρήστης"
+
+#: View/Favourites/admin_view.ctp:14 View/Services/admin_view.ctp:2
+msgid "Service"
+msgstr "Υπηρεσία"
+
+#: View/Helper/OHPinMapHelper.php:38
+msgid "Search Map"
+msgstr "Χάρτης Αναζήτησης"
+
+#: View/Helper/OHPinMapHelper.php:39
+msgid "Drag the map to move."
+msgstr "Σύρετε το χάρτη για να μετακινηθεί."
+
+#: View/Helper/OHPinMapHelper.php:39
+msgid "Click anywhere on the map to place the marker."
+msgstr "Κάντε κλικ οπουδήποτε πάνω στο χάρτη για να τοποθετήσετε μια σήμανση. "
+
+#: View/Helper/OHPinMapHelper.php:39
+msgid "Use the search to find a postcode or town."
+msgstr ""
+"Χρησιμοποιείστε την αναζήτηση για να βρείτε την πόλη ή τον ταχυδρομικό "
+"κώδικα."
+
+#: View/Layouts/admin.ctp:42
+msgid "Tools"
+msgstr "Εργαλεία"
+
+#: View/Layouts/admin.ctp:44
+msgid "Service Quick-add"
+msgstr "Υπηρεσία Γρήγορης-Προσθήκης"
+
+#: View/Layouts/admin.ctp:49
+msgid "List Users"
+msgstr "Λίστα Χρηστών"
+
+#: View/Layouts/admin.ctp:51
+msgid "New User"
+msgstr "Νέος Χρήστης"
+
+#: View/Layouts/admin.ctp:53
+msgid "List Favourites"
+msgstr "Λίστα Αγαπημένων"
+
+#: View/Layouts/admin.ctp:54 View/Services/admin_view.ctp:134
+#: View/Users/admin_view.ctp:138
+msgid "New Favourite"
+msgstr "Νέο Αγαπημένο"
+
+#: View/Layouts/admin.ctp:61
+msgid "List Statements"
+msgstr "Λίστα Δηλώσεων"
+
+#: View/Layouts/admin.ctp:69
+msgid "List Conditions"
+msgstr "Λίστα Νόσων"
+
+#: View/Layouts/admin.ctp:71
+msgid "New Condition"
+msgstr "Νέα Νόσος"
+
+#: View/Layouts/admin.ctp:77
+msgid "List Responses"
+msgstr "Λίστα Απαντήσεων"
+
+#: View/Layouts/admin.ctp:81
+msgid "List Network Members"
+msgstr "Λίστα Μελών Δικτύου"
+
+#: View/Layouts/admin.ctp:82 View/NetworkCategories/admin_view.ctp:107
+#: View/Responses/admin_view.ctp:162
+msgid "New Network Member"
+msgstr "Νέο Μέλος Δικτύου"
+
+#: View/Layouts/admin.ctp:85
+msgid "List Network Categories"
+msgstr "Λίστα Κατηγοριών Δικτύου"
+
+#: View/Layouts/admin.ctp:86
+msgid "New Network Category"
+msgstr "Νέα Κατηγορία Δικτύου"
+
+#: View/Layouts/admin.ctp:89
+msgid "List Network Types"
+msgstr "Λίστα Τύπων Δικτύου"
+
+#: View/Layouts/admin.ctp:90
+msgid "New Network Type"
+msgstr "Νέος Τύπος Δικτύου"
+
+#: View/Layouts/admin.ctp:97
+msgid "List Services"
+msgstr "Λίστα Υπηρεσιών"
+
+#: View/Layouts/admin.ctp:101
+msgid "List Categories"
+msgstr "Λίστα Υπηρεσιών"
+
+#: View/Layouts/admin.ctp:102 View/Services/admin_view.ctp:173
+#: View/Statements/admin_view.ctp:75
+msgid "New Category"
+msgstr "Νέα Κατηγορία"
+
+#: View/Layouts/admin.ctp:109
+msgid "List Pages"
+msgstr "Λίστα Σελίδων"
+
+#: View/Layouts/admin.ctp:111
+msgid "New Page"
+msgstr "Νέα Σελίδα"
+
+#: View/Layouts/default.ctp:68
+msgid "Change contrast"
+msgstr "Αλλαγή αντίθεσης"
+
+#: View/Layouts/default.ctp:76
+msgid "Change Type Size"
+msgstr "Αλλαγή Μεγέθους Γραμματοσειράς"
+
+#: View/Layouts/default.ctp:86
+msgid "Forgotten your Password?"
+msgstr "Ξεχάσετε τον κωδικό σας;"
+
+#: View/Layouts/default.ctp:102
+msgid "EU-GENIE"
+msgstr "EU-GENIE "
+
+#: View/Layouts/default.ctp:106
+msgid "Home"
+msgstr "Αρχική"
+
+#: View/Layouts/default.ctp:107 View/Responses/add.ctp:46
+msgid "Questionnaire"
+msgstr "Ερωτηματολόγιο"
+
+#: View/Layouts/default.ctp:108
+msgid "My EU-GENIE"
+msgstr "Η EU-GENIE μου"
+
+#: View/Layouts/default.ctp:110
+msgid "About"
+msgstr "Σχετικά"
+
+#: View/Layouts/default.ctp:116
+msgid "Search for groups (e.g. \"community centre\" or \"swimming\")"
+msgstr "Αναζήτηση ομάδων (π.χ. \"πολιτισμικό κέντρο\" ή \"κολύμπι\")"
+
+#: View/Layouts/default.ctp:144
+msgid "Tweet us"
+msgstr "Κάντε μας tweet"
+
+#: View/NetworkCategories/admin_add.ctp:4
+msgid "Admin Add Network Category"
+msgstr "Διαχειριστή Πρόσθεσε Κατηγορία Δικτύου"
+
+#: View/NetworkCategories/admin_edit.ctp:4
+msgid "Admin Edit Network Category"
+msgstr "Διαχειριστή Επεξεργάσου την Κατηγορία Δικτύου"
+
+#: View/NetworkCategories/admin_index.ctp:2
+msgid "Network Categories"
+msgstr "Κατηγορίες Δικτύου"
+
+#: View/NetworkCategories/admin_view.ctp:2
+#: View/NetworkMembers/admin_view.ctp:34
+msgid "Network Category"
+msgstr "Κατηγορία Δικτύου"
+
+#: View/NetworkCategories/admin_view.ctp:29
+msgid "Parent Network Category"
+msgstr "Κατηγορία Δικτύου Γονέων"
+
+#: View/NetworkCategories/admin_view.ctp:36
+msgid "Related Network Categories"
+msgstr "Κατηγορία Δικτύου Συγγενών"
+
+#: View/NetworkCategories/admin_view.ctp:68
+msgid "New Child Network Category"
+msgstr "Κατηγορία Δικτύου Νέου Παιδιού"
+
+#: View/NetworkCategories/admin_view.ctp:73 View/Responses/admin_view.ctp:128
+msgid "Related Network Members"
+msgstr "Σχετικά Μέλη Δικτύου"
+
+#: View/NetworkCategories/admin_view.ctp:79
+#: View/NetworkMembers/admin_view.ctp:14 View/Responses/admin_view.ctp:134
+msgid "Frequency"
+msgstr "Συχνότητα"
+
+#: View/NetworkCategories/admin_view.ctp:82 View/Responses/admin_view.ctp:137
+msgid "Network Category Id"
+msgstr "Id Κατηγορίας Δικτύου"
+
+#: View/NetworkCategories/admin_view.ctp:83 View/Responses/admin_view.ctp:138
+msgid "Response Id"
+msgstr "Id Απάντησης"
+
+#: View/NetworkMembers/admin_add.ctp:4
+msgid "Admin Add Network Member"
+msgstr "Διαχειριστή Πρόσθεσε το Μέλος Δικτύου"
+
+#: View/NetworkMembers/admin_edit.ctp:4
+msgid "Admin Edit Network Member"
+msgstr "Διαχειριστή Επεξεργάσου το Μέλος Δικτύου"
+
+#: View/NetworkMembers/admin_index.ctp:2
+msgid "Network Members"
+msgstr "Μέλη Δικτύου"
+
+#: View/NetworkMembers/admin_view.ctp:2
+msgid "Network Member"
+msgstr "Μέλος Δικτύου"
+
+#: View/NetworkMembers/admin_view.ctp:39 View/Responses/admin_view.ctp:2
+msgid "Response"
+msgstr "Απάντηση"
+
+#: View/NetworkTypes/admin_add.ctp:4
+msgid "Admin Add Network Type"
+msgstr "Διαχειριστή Πρόσθεσε τον Τύπο Δικτύου"
+
+#: View/NetworkTypes/admin_edit.ctp:4
+msgid "Admin Edit Network Type"
+msgstr "Διαχειριστή Επεξεργάσου τον Τύπου Δικτύου"
+
+#: View/NetworkTypes/admin_index.ctp:2
+msgid "Network Types"
+msgstr "Τύποι Δικτύου"
+
+#: View/NetworkTypes/admin_view.ctp:2 View/Responses/admin_view.ctp:49
+msgid "Network Type"
+msgstr "Τύπος Δικτύου"
+
+#: View/NetworkTypes/admin_view.ctp:19
+msgid "Ruleset"
+msgstr "Σύνολο Κανόνων"
+
+#: View/Pages/admin_add.ctp:4
+msgid "Admin Add Page"
+msgstr "Διαχειριστή Πρόσθεσε Σελίδα"
+
+#: View/Pages/admin_edit.ctp:4
+msgid "Admin Edit Page"
+msgstr "Διαχειριστή Επεξεργάσου τη Σελίδα"
+
+#: View/Pages/admin_index.ctp:2
+msgid "Pages"
+msgstr "Σελίδες"
+
+#: View/Pages/admin_view.ctp:14
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: View/Pages/view.ctp:8 View/Responses/add.ctp:15
+msgid "What would you like to do next?"
+msgstr "Τι θέλετε να κάνετε στη συνέχεια;"
+
+#: View/Pages/view.ctp:10 View/Responses/add.ctp:17
+msgid ""
+"Fill in the short EU-GENIE<br/> questionnaire and get<br/> your own tailored,"
+"<br/> personal map"
+msgstr ""
+"Συμπληρώστε το σύντομο ερωτηματολόγιο EU-GENIE ώστε να λάβετε τον δικό σας, "
+"προσωπικό χάρτη"
+
+#: View/Pages/view.ctp:11 View/Responses/add.ctp:18
+msgid ""
+"Have a quick look at<br/> what's available in your<br/> area by entering "
+"your<br/> postcode"
+msgstr ""
+"Ρίξτε μια ματιά στο για να δείτε ποιες διαθέσιμες υπηρεσίες υπάρχουν στην "
+"περιοχή σας και γράψτε τον ταχυδρομικό σας κώδικα"
+
+#: View/Pages/view.ctp:12 View/Responses/add.ctp:19
+msgid "Sign in if you already<br/> have an account<br/> with us."
+msgstr ""
+"Συνδεθείτε σε περίπτωση που ήδη έχετε ένα λογαριασμό στην ιστοσελίδα μας. "
+
+#: View/Responses/add.ctp:27;43;51
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: View/Responses/add.ctp:28
+msgid "Enter your postcode…"
+msgstr "Εισάγετε τον ταχυδρομικό σας κώδικα…"
+
+#: View/Responses/add.ctp:31
+msgid "Eg. M3 5HW"
+msgstr "Π.χ. 71309"
+
+#: View/Responses/add.ctp:39
+msgid "This way we can get results local to you."
+msgstr "Με αυτόν τον τρόπο θα λάβετε αποτελέσματα σχετικά με την περιοχή σας."
+
+#: View/Responses/add.ctp:44
+msgid "Next Question"
+msgstr "Επόμενη Ερώτηση"
+
+#: View/Responses/add.ctp:45
+msgid "Previous Question"
+msgstr "Προηγούμενη Ερώτηση"
+
+#: View/Responses/add.ctp:53
+msgid "You are logged in as"
+msgstr "Έχετε συνδεθεί ως"
+
+#: View/Responses/add.ctp:54
+msgid "Update your questionnaire"
+msgstr "Ανανεώστε το ερωτηματολόγιο σας"
+
+#: View/Responses/add.ctp:56
+msgid "Already have a"
+msgstr "Έχετε ήδη ένα/μια"
+
+#: View/Responses/add.ctp:56
+msgid "account?"
+msgstr "λογαριασμό;"
+
+#: View/Responses/add.ctp:57
+msgid "Log In below and access your personal homepage"
+msgstr ""
+"Συνδεθείτε παρακάτω και αποκτήστε πρόσβαση στην προσωπική σας αρχική σελίδα"
+
+#: View/Responses/add.ctp:59
+msgid "Don't have an account? Fill in the"
+msgstr "Δεν έχετε λογαριασμό; Συμπληρώστε"
+
+#: View/Responses/add.ctp:59;61
+msgid "questionnaire..."
+msgstr "ερωτηματολόγιο…"
+
+#: View/Responses/add.ctp:61
+msgid "Fill in the"
+msgstr "Συμπληρώστε"
+
+#: View/Responses/admin_add.ctp:4
+msgid "Admin Add Response"
+msgstr "Διαχειριστή Πρόσθεσε Απάντηση"
+
+#: View/Responses/admin_edit.ctp:4
+msgid "Admin Edit Response"
+msgstr "Διαχειριστή Επεξεργάσου την Απάντηση"
+
+#: View/Responses/admin_index.ctp:2
+msgid "Responses"
+msgstr "Απαντήσεις"
+
+#: View/Responses/admin_index.ctp:24
+msgid "Live Site View"
+msgstr "Ζωντανή προβολή ιστοσελίδας"
+
+#: View/Responses/admin_view.ctp:72
+msgid "Related Conditions"
+msgstr "Σχετικά Νοσήματα"
+
+#: View/Responses/admin_view.ctp:102
+msgid "Weighting"
+msgstr "Ζύγιση "
+
+#: View/Responses/my_network.ctp:6
+msgid "In your network"
+msgstr "Στο δίκτυό σας"
+
+#: View/Responses/my_network.ctp:8
+msgid "There is 1 network member."
+msgstr "Υπάρχει ένα μέλος στο δίκτυο."
+
+#: View/Responses/my_network.ctp:8
+msgid "There are %s network members."
+msgstr "Υπάρχουν %s μέλη στο δίκτυο."
+
+#: View/Responses/my_network.ctp:11
+msgid "This includes"
+msgstr "Αυτό περιλαμβάνει"
+
+#: View/Responses/my_network.ctp:26
+msgid " and "
+msgstr "και"
+
+#: View/Services/admin_add.ctp:4
+msgid "Admin Add Service"
+msgstr "Διαχειριστή Πρόσθεσε Υπηρεσία"
+
+#: View/Services/admin_edit.ctp:4
+msgid "Admin Edit Service"
+msgstr "Διαχειριστή Επεξεργάσου την Υπηρεσία"
+
+#: View/Services/admin_index.ctp:2
+msgid "Services"
+msgstr "Υπηρεσίες"
+
+#: View/Services/admin_view.ctp:14
+msgid "Contact Name"
+msgstr "Όνομα Επαφής"
+
+#: View/Services/admin_view.ctp:19
+msgid "Address 1"
+msgstr "Διεύθυνση 1"
+
+#: View/Services/admin_view.ctp:24
+msgid "Address 2"
+msgstr "Διεύθυνση 2"
+
+#: View/Services/admin_view.ctp:29
+msgid "Address 3"
+msgstr "Διεύθυνση 3"
+
+#: View/Services/admin_view.ctp:44
+msgid "Phone"
+msgstr "Τηλέφωνο"
+
+#: View/Services/admin_view.ctp:54
+msgid "Url"
+msgstr "Url "
+
+#: View/Services/admin_view.ctp:64
+msgid "Time Details"
+msgstr "Πληροφορίες Ώρας"
+
+#: View/Services/admin_view.ctp:69
+msgid "Twitter"
+msgstr "Twitter "
+
+#: View/Services/admin_view.ctp:74
+msgid "Facebook Url"
+msgstr "Facebook Url "
+
+#: View/Services/admin_view.ctp:79
+msgid "Lat"
+msgstr "Lat "
+
+#: View/Services/admin_view.ctp:84
+msgid "Lng"
+msgstr "Lng "
+
+#: View/Services/admin_view.ctp:106 View/Users/admin_view.ctp:110
+msgid "Related Favourites"
+msgstr "Σχετικά Αγαπημένα"
+
+#: View/Services/admin_view.ctp:112 View/Users/admin_view.ctp:116
+msgid "Service Id"
+msgstr "Id Υπηρεσίας"
+
+#: View/Services/index.ctp:21
+msgid "Change your postcode"
+msgstr "Αλλαγή του ταχυδρομικού σας κώδικα"
+
+#: View/Services/index.ctp:39 View/Services/view.ctp:30
+msgid "Show Results Within:"
+msgstr "Εμφάνιση Αποτελεσμάτων σε Απόσταση:"
+
+#: View/Services/index.ctp:49 View/Services/view.ctp:40
+msgid "1 Mile"
+msgstr "1 χιλιομέτρου"
+
+#: View/Services/index.ctp:53 View/Services/view.ctp:44
+msgid "2 Miles"
+msgstr "2 χιλιομέτρων"
+
+#: View/Services/index.ctp:57 View/Services/view.ctp:48
+msgid "5 Miles"
+msgstr "5 χιλιομέτρων"
+
+#: View/Services/index.ctp:61 View/Services/view.ctp:52
+msgid "10 Miles"
+msgstr "10 χιλιομέτρων"
+
+#: View/Services/index.ctp:73 View/Services/view.ctp:62
+msgid "My Favourites"
+msgstr "Τα Αγαπημένα μου"
+
+#: View/Services/index.ctp:95
+msgid "Already have a PLANS account?"
+msgstr "Έχετε ήδη PLANS λογαριασμό;"
+
+#: View/Services/index.ctp:96
+msgid "Log In below to add favourites"
+msgstr "Συνδεθείτε παρακάτω και να κάνετε προσθήκες στα αγαπημένα"
+
+#: View/Services/index.ctp:99
+msgid "Don't have an account? Fill in the PLANS questionnaire..."
+msgstr "Δεν έχετε λογαριασμό; Συμπληρώστε το ερωτηματολόγιο PLANS…"
+
+#: View/Services/index.ctp:100
+msgid ""
+"Put in your email address when taking the questionnaire to automatically set "
+"up an account."
+msgstr ""
+"Συμπληρώστε την ηλεκτρονική σας διεύθυνση όταν κάνετε το ερωτηματολόγιο και "
+"αυτόματα θα δημιουργηθεί ο λογαριασμός σας."
+
+#: View/Services/index.ctp:102
+msgid "Fill in the PLANS questionnaire..."
+msgstr "Συμπληρώστε το ερωτηματολόγιο PLANS"
+
+#: View/Services/view.ctp:139
+msgid "Enter a date within the next month."
+msgstr "Εισάγετε μια ημερομηνία εντός του επόμενου μήνα."
+
+#: View/Services/view.ctp:172
+msgid "Get Results"
+msgstr "Λάβετε τα Αποτελέσματα"
+
+#: View/Statements/admin_add.ctp:4
+msgid "Admin Add Statement"
+msgstr "Διαχειριστή Πρόσθεσε Δήλωση"
+
+#: View/Statements/admin_edit.ctp:4
+msgid "Admin Edit Statement"
+msgstr "Διαχειριστή Επεξεργάσου την Δήλωση"
+
+#: View/Statements/admin_index.ctp:2
+msgid "Statements"
+msgstr "Δηλώσεις"
+
+#: View/Statements/admin_view.ctp:93
+msgid "Health Conditions"
+msgstr "Ασθένειες"
+
+#: View/Users/account.ctp:6
+msgid "Change email address"
+msgstr "Αλλαγή της ηλεκτρονικής διεύθυνσης"
+
+#: View/Users/account.ctp:8
+msgid "Change password"
+msgstr "Αλλαγή του κωδικού"
+
+#: View/Users/account.ctp:11
+msgid "Old password"
+msgstr "Παλιός κωδικός"
+
+#: View/Users/account.ctp:12
+msgid "New password"
+msgstr "Νέος κωδικός"
+
+#: View/Users/account.ctp:13
+msgid "Confirm new password"
+msgstr "Επιβεβαίωση νέου κωδικού"
+
+#: View/Users/admin_add.ctp:4
+msgid "Admin Add User"
+msgstr "Διαχειριστή Πρόσθεσε Χρήστη"
+
+#: View/Users/admin_edit.ctp:4
+msgid "Admin Edit User"
+msgstr "Διαχειριστή Επεξεργάσου το Χρήστη"
+
+#: View/Users/admin_index.ctp:2
+msgid "Users"
+msgstr "Χρήστες"
+
+#: View/Users/admin_view.ctp:19
+msgid "Is Admin"
+msgstr "Είναι Διαχειριστής"
+
+#: View/Users/admin_view.ctp:24
+msgid "Forgot Password Key"
+msgstr "Ξέχασα το Κλειδί του Κωδικού"
+
+#: View/Users/admin_view.ctp:101
+msgid "Edit Response"
+msgstr "Επεξεργασία Απάντησης"
+
+#: View/Users/admin_view.ctp:102
+msgid "View Response"
+msgstr "Προβολή Απάντησης"
+
+#: View/Users/forgot_password.ctp:2
+msgid "Forgot Password"
+msgstr "Ξέχασα τον Κωδικό"
+
+#: View/Users/forgot_password.ctp:6
+msgid ""
+"Please enter the email address you used to sign up, and a new password will "
+"be sent to you."
+msgstr ""
+"Παρακαλώ, συμπληρώστε την ηλεκτρονική διεύθυνση που συνήθως χρησιμοποιείται "
+"για να συνδεθείτε, και ο νέος κωδικός θα σας αποσταλθεί."
+
+#: View/Users/forgot_password.ctp:17;34
+msgid "Thank you"
+msgstr "Σας ευχαριστούμε"
+
+#: View/Users/forgot_password.ctp:18
+msgid "Please check your email inbox for further instructions."
+msgstr "Παρακαλώ ελέγξτε τα εισερχόμενα σας για περισσότερες πληροφορίες"
+
+#: View/Users/forgot_password.ctp:19
+msgid ""
+"If the email doesn't arrive, please check your junk email folder before "
+"trying again."
+msgstr ""
+"Σε περίπτωση που δεν έχετε λάβει το μήνυμα, παρακαλώ δείτε και το φάκελο της "
+"ανεπιθύμητης αλληλογραφίας πριν προσπαθείτε ξανά. "
+
+#: View/Users/forgot_password.ctp:21
+msgid "Please choose a new password"
+msgstr "Παρακαλώ επιλέξτε έναν νέο κωδικό"
+
+#: View/Users/forgot_password.ctp:35
+msgid "Your new password is now active."
+msgstr "Ο νέος σας κωδικός είναι ενεργός τώρα."
+
+#: View/Users/forgot_password.ctp:36
+msgid "Please log in above with your new details."
+msgstr "Παρακαλώ συνδεθείτε παραπάνω με τα νέα σας στοιχεία."
+
+#: View/Users/login.ctp:3
+msgid "Welcome,"
+msgstr "Καλώς ορίσατε, "
+
+#: View/Users/login.ctp:5
+msgid "LOGOUT"
+msgstr "ΑΠΟΣΥΝΔΕΣΗ"
+
+#: View/Users/login.ctp:6
+msgid "MY ACCOUNT"
+msgstr "Ο ΛΟΓΑΡΓΙΑΣΜΟΣ ΜΟΥ"
+
+#: View/Users/login.ctp:21
+msgid "Create Account"
+msgstr "Δημιουργία Λογαριασμού"
+
+#: Model/Category.php:validation for field name
+msgid "You must set a category name."
+msgstr "Θα πρέπει να επιλέξετε ένα όνομα κατηγορίας"
+
+#: Model/Category.php:validation for field name
+msgid "The maximum allowed length is 45 characters."
+msgstr "Οι χαρακτήρες δεν θα πρέπει να είναι περισσότεροι από τους 45."
+
+#: Model/Condition.php:validation for field name
+#: Model/NetworkCategory.php:validation Model/NetworkMember.php:validation
+#: Model/NetworkType.php:validation name;validation ruleset
+#: Model/Statement.php:validation statement
+msgid "notempty"
+msgstr ""
+
+#: Model/Contact.php:validation for field name;validation email;validation
+#: question
+msgid "Your custom message here"
+msgstr "Το προσαρμοσμένο μήνυμα σας εδώ"
+
+#: Model/Page.php:validation for field name
+msgid "Please set a page title"
+msgstr "Παρακαλώ επιλέξτε έναν τίτλο σελίδας"
+
+#: Model/Response.php:validation for field age
+msgid "Please choose an age range"
+msgstr "Παρακαλώ επιλέξτε ένα ηλικιακό εύρος"
+
+#: Model/Response.php:validation for field gender
+msgid "Please choose a gender"
+msgstr "Παρακαλώ επιλέξτε ένα φύλο"
+
+#: Model/Response.php:validation for field postcode
+msgid "Please enter your postcode"
+msgstr "Παρακαλώ γράψτε τον ταχυδρομικό σας κώδικα"
+
+#: Model/ResponseStatement.php:validation for field weighting
+msgid "Invalid weighting"
+msgstr "Άκυρη ζύγιση"
+
+#: Model/Service.php:validation for field name
+msgid "Name cannot be omitted"
+msgstr "Το όνομα δεν μπορεί να παραλειφθεί"
+
+#: Model/Service.php:validation for field email
+msgid "Must be a valid email address."
+msgstr "Θα πρέπει να είναι μια ισχύουσα ηλεκτρονική διεύθυνση."
+
+#: Model/Statement.php:validation for field order
+msgid "numeric"
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "You must enter a valid email address."
+msgstr "Θα πρέπει να καταχωρήσετε μια ισχύουσα ηλεκτρονική διεύθυνση."
+
+#: Model/User.php:validation for field email
+msgid ""
+"An account using this email address already exists. Please log in instead."
+msgstr ""
+"Η ηλεκτρονική διεύθυνση ήδη χρησιμοποιείται από έναν λογαριασμό. Παρακαλώ "
+"συνδεθείτε."
+
+#: Model/User.php:validation for field is_admin
+msgid "boolean"
+msgstr ""
+
+#: Model/User.php:validation for field password
+msgid ""
+"Passwords must be 8 characters or more to ensure the security of your account"
+msgstr ""
+"Ο κωδικός πρόσβασης θα πρέπει να έχει τουλάχιστον 8 ή περισσότερους "
+"χαρακτήρες για να διασφαλίσετε την ασφάλεια του λογαριασμού σας"
+
+#: Model/User.php:validation for field password_confirm
+msgid "Your entered passwords should match"
+msgstr "Οι κωδικοί σας θα πρέπει να ταιριάζουν"
+
+#: Model/User.php:validation for field old_password
+msgid "Your old password is incorrect."
+msgstr "Ο παλιός σας κωδικός δεν είναι σωστός"
+
+#, fuzzy
+#~ msgid "email"
+#~ msgstr "Ηλεκτρονική διεύθυνση"
+
+#, fuzzy
+#~ msgid "password"
+#~ msgstr "Κωδικός"

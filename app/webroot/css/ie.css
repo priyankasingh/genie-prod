@@ -1,0 +1,1 @@
+.w2{zoom:expression(runtimeStyle.zoom = 1, insertAdjacentHTML('afterBegin', '<div class="before"></div>'), insertAdjacentHTML('beforeEnd', '<div class="after"></div>'));}
