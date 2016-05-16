@@ -51,6 +51,7 @@ class OHPinMapHelper extends AppHelper {
 		if (($https = $this->_currentOptions['https']) === null) {
 			$https = !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on';
 		}
-		return ($https ? 'https' : 'http') . '://';
+		//return ($https ? 'https' : 'http') . '://';
+		return "https://";
 	}
 }

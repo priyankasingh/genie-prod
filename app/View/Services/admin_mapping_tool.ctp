@@ -30,8 +30,8 @@
 
 				<ul>
 					
-					<li><a target="_blank" id="google-link" href="http://www.google.com/search?q=">Google search</a></li>
-					<li><a target="_blank" id="google-map" href="http://www.google.com/search?q=">Google maps search</a></li>
+					<li><a target="_blank" id="google-link" href="https://www.google.com/search?q=">Google search</a></li>
+					<li><a target="_blank" id="google-map" href="https://www.google.com/search?q=">Google maps search</a></li>
 				</ul>
 			</div>
 	</div>

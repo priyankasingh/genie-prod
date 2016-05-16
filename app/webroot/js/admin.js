@@ -80,8 +80,8 @@
 		// Set google links
 		
 		$(".google-search-box").fadeIn();
-			$("a#google-link").attr("href" , "http://www.google.com/search?q=" +  $('#mappingSearchLocation').val() + "+" +  $('#mappingSearchServiceType').val());
-			$("a#google-map").attr("href" , "http://www.google.com/maps/preview?q=" +  $('#mappingSearchLocation').val() + "+" +  $('#mappingSearchServiceType').val());
+			$("a#google-link").attr("href" , "https://www.google.com/search?q=" +  $('#mappingSearchLocation').val() + "+" +  $('#mappingSearchServiceType').val());
+			$("a#google-map").attr("href" , "https://www.google.com/maps/preview?q=" +  $('#mappingSearchLocation').val() + "+" +  $('#mappingSearchServiceType').val());
 
 			return false;
 		});
