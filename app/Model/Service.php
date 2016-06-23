@@ -158,7 +158,7 @@ class Service extends AppModel {
 		$query = array(
 			'fields' => array(
 				// '*',
-				String::insert(
+				CakeText::insert(
 					'3956 * 2 *
 					ASIN(SQRT(
 						POWER(SIN((:lat - ABS(:alias.lat)) * PI() / 180 / 2), 2) +

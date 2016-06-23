@@ -43,7 +43,7 @@ class Response extends AppModel {
 		),
 		'postcode' => array(
 			'notempty' => array(
-				'rule' => array('notempty'),
+				'rule' => array('notblank'),
 				'message' => 'Please enter your postcode',
 				'allowEmpty' => false,
 				'required' => true,
