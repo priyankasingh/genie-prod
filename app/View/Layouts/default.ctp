@@ -28,6 +28,10 @@
 		echo $this->Html->script('lib.js?v='.$version_no);
 
 		echo $this->Html->script('jquery-ui-1.10.4.custom.min.js');
+                
+                // ipad fix
+                echo $this->Html->script('lib/touch-puncher/jquery.ui.touch-punch.min.js');
+                
 		?>
 		<?php if (!($this->params['controller'] == 'services' && $this->params['action'] == 'availability')): ?>
 		<script>
@@ -162,7 +166,7 @@
 								</li>
 								<li <?php if( $active_nav == 'my_plans'): ?>class="active"<?php endif; ?>>
 									<?php
-									echo $this->Html->link( __('My EU-GENIE'),
+									echo $this->Html->link( __('My GENIE'),
 										array(
 											'controller'=>'services',
 											'action'=>'index',
@@ -231,7 +235,8 @@
 							}
 						?>
 						<li class="<?php echo $class;?>">
-							<?php echo $this->Html->link( $parent_category['Category']['name'], array('controller'=>'services', 'action'=>'index', $parent_category['Category']['slug']), array('class'=>'ajax') ); ?>
+							<?php echo $this->Html->link( $parent_category['Category']['name'], array('controller'=>'services', 'action'=>'index', $parent_category['Category']['slug']), array('class'=>'ajax') );
+                                                        ?>
 						</li>
 						<?php endforeach;?>
 					</ul>
@@ -251,10 +256,10 @@
 						</ul>
 					</div>
 					<p style="text-align:right;">
-						<?php echo __('EU-GENIE is released under the'); ?>
+						<?php echo __('GENIE is released under the'); ?>
 						<a target="_blank" href="http://opensource.org/licenses/gpl-2.0.php">General Public License</a>,
 						<?php echo __('it is'); ?>
-						<a target="_blank" href="https://github.com/rockitdesign/eu-genie"><?php echo __('open source'); ?></a>
+						<a target="_blank" href="https://github.com/priyankasingh/Genie"><?php echo __('open source'); ?></a>
 						<?php echo __('and free to use'); ?>.
 					</p>
 				</div>

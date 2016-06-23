@@ -19,7 +19,7 @@
 		<ul class="options-list">
 			<li class="mouse">
 				<?php
-				echo $this->Html->link(__('Fill in the short EU-GENIE questionnaire and get your own tailored, personal map'),
+				echo $this->Html->link(__('Fill in the short GENIE questionnaire and get your own tailored, personal map'),
 					array(
 						'controller' => 'responses',
 						'action' => 'questionnaire_setup'

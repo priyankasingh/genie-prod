@@ -481,7 +481,7 @@ input:-moz-placeholder { color:#404F59; }
 #nav li{
 	float:left;
 	margin:0 4px 0 0;
-	width:156px;
+	width:133px;  /* Changes the size of navigation box */
 }
 #nav a{
 	display:block;
@@ -501,10 +501,17 @@ input:-moz-placeholder { color:#404F59; }
 	padding-top:14px;
 	padding-bottom: 12px;
 }
+
+#nav li.active.category-42 a{
+	padding-top:14px;
+	padding-bottom: 12px;
+}
+
 #nav .category-1 a{background:#c3e76f;}
 #nav .category-7 a{background:#ff9b43;}
 #nav .category-13 a{background:#ff7876;}
 #nav .category-15 a{background:#4ecdc4;}
+#nav .category-23 a{background:#72c271;}
 #nav .category-19 a{
 	background:#6c51a2;
 	font-size:17px;
@@ -512,16 +519,28 @@ input:-moz-placeholder { color:#404F59; }
 	padding:6px 0 5px;
 	height:34px !important;
 }
-#nav .category-23 a{background:#72c271;}
+
+#nav .category-42 a{
+	background:#ce78ff;
+	font-size:17px;
+	line-height:30px;
+	padding:6px 0 5px;
+	height:34px !important;
+}
+
+
+
 #nav .category-1 a:hover{background:#e4eec4;}
 #nav .category-7 a:hover{background:#fdd3ac;}
 #nav .category-13 a:hover{background:#fac8c9;}
 #nav .category-15 a:hover{background:#a0d8d5;}
 #nav .category-19 a:hover{background:#dcdaed;}
 #nav .category-23 a:hover{background:#c6e3c1;}
-/*#main{
+#nav .category-42 a:hover{background:#f1c5ff;}
+
+#main{
 	overflow:hidden;
-}*/
+}
 .main-holder{
 	overflow:hidden;
 	padding:21px 0 17px;
@@ -731,6 +750,12 @@ input:-moz-placeholder { color:#404F59; }
 .category-23 h2{
 	background:#72c271;
 }
+
+.category-42 h2{
+	background:#ce78ff;
+}
+
+
 .aside-list{
 	overflow:hidden;
 	background:#f1f3f3;
@@ -830,6 +855,13 @@ div.service.category-23 h3,
 .category-23 h4{
 	color:#3b4268;
 }
+
+div.service.category-42 h2,
+div.service.category-42 h3,
+.category-42 h4{
+	color:#680094;
+}
+
 .aside .number{
 	float:left;
 	margin:0 14px 0 0;
@@ -850,6 +882,7 @@ div.service.category-23 h3,
 .category-13 .results-list:hover, .category-13 .results-list.active{background-color:#fac8c9;}
 .category-15 .results-list:hover, .category-15 .results-list.active{background-color:#a0d8d5;}
 .category-19 .results-list:hover, .category-19 .results-list.active{background-color:#dcdaed;}
+.category-42 .results-list:hover, .category-42 .results-list.active{background-color:#e8c2fd;}
 
 .category-23 .results-list:hover{
 	background-color: #c6e3c1;
@@ -879,6 +912,13 @@ div.service.category-23 h3,
 	color: #3c663b;
 	background:url(../img/ico-dark-green.png) no-repeat;
 }
+
+.category-42 .number{
+	color: #ce78ff;
+	background:url(../img/ico-magenta.png) no-repeat;
+}
+
+
 .aside-list .text-section{
 	float:left;
 	width:266px;
@@ -925,6 +965,11 @@ div.service.category-23 h3,
 }
 .category-23 .aside-list h3 .mark{
 	color: #3c663b;
+	font-weight:normal;
+}
+
+.category-42 .aside-list h3 .mark{
+	color: #5a217b;
 	font-weight:normal;
 }
 .aside .favourite-link{
@@ -978,6 +1023,13 @@ div.service.category-23 h3,
 	background:url(../img/btn-dark-green.png) no-repeat;
 	color: #3c663b;
 }
+
+.category-42 .aside-list .more{
+	background:url(../img/btn-magenta.png) no-repeat;
+	color: #ce78ff;
+}
+
+
 .aside-holder{
 	background:#f1f3f3;
 	overflow:hidden;
@@ -1850,6 +1902,12 @@ a.close:hover{
 	color: #3c663b;
 	background:url(../img/pin-dark-green.png) no-repeat;
 }
+
+.oh-pin.category-42{
+	color: #3c663b;
+	background:url(../img/pin-magenta.png) no-repeat;
+}
+
 .favourites .oh-pin{
 	color: #404F59;
 	background:url(../img/pin-yellow.png) no-repeat;
@@ -1878,6 +1936,13 @@ a.close:hover{
 	color: #3c663b;
 	background:url(../img/pin-dark-green-hover.png) no-repeat;
 }
+
+.oh-pin.category-42:hover, .oh-pin.category-42.active{
+	color: #3c663b;
+	background:url(../img/pin-magenta-hover.png) no-repeat;
+}
+
+
 .favourites .oh-pin:hover, .favourites .oh-pin.active{
 	color: #404F59;
 	background:url(../img/pin-yellow-hover.png) no-repeat;
@@ -1917,6 +1982,10 @@ h2#filter-label.category-19{
 h2#filter-label.category-23{
 	color: #3c663b;
 }
+
+h2#filter-label.category-42{
+	color: #bd7fe0;
+}
 ul#filter-list{
 	float:left;
 	margin-bottom: 8px;
@@ -1952,6 +2021,13 @@ ul#filter-list{
 	color: #404f59;
 	background:#72c271;
 }
+
+#filter-list li.category-42{
+	color: #5f3d72;
+	background:#cc8df1;
+}
+
+
 #filter-list li a{
 	color: inherit;
 	display: block;
@@ -2042,6 +2118,12 @@ ul#filter-list{
 .category-23 .twitter-link{
 	background: url(../img/twitter-dark-green.png) no-repeat;
 }
+
+.category-42 .twitter-link{
+	background: url(../img/twitter-magenta.png) no-repeat;
+}
+
+
 .facebook-link{
 	padding-left: 18px;
 }
@@ -2063,6 +2145,11 @@ ul#filter-list{
 .category-23 .facebook-link{
 	background: url(../img/facebook-dark-green.png) no-repeat;
 }
+
+.category-42 .facebook-link{
+	background: url(../img/facebook-magenta.png) no-repeat;
+}
+
 .category-1 .twitter-link,
 .category-1 .facebook-link,
 .category-1 .twitter a{
@@ -2093,6 +2180,12 @@ ul#filter-list{
 .category-23 .twitter a{
 	color: #3c663b;
 }
+
+.category-42 .twitter-link,
+.category-42 .facebook-link,
+.category-42 .twitter a{
+	color: #5f3775;
+}
 .info-box p{
 	margin-bottom: 6px;
 }
@@ -2117,6 +2210,12 @@ ul#filter-list{
 .category-23 .twitter li{
 	background: url(../img/twitter-dark-green.png) no-repeat 0px 24px;
 }
+
+.category-42 .twitter li{
+	background: url(../img/twitter-magenta.png) no-repeat 0px 24px;
+}
+
+
 .twitter li .text{
 	border-top: 2px solid;
 	padding-top: 11px;
@@ -2139,6 +2238,12 @@ ul#filter-list{
 .category-23 .twitter li .text{
 	border-color: #72c271;
 }
+
+.category-42 .twitter li .text{
+	border-color: #ce78ff;
+}
+
+
 .twitter li:first-child .text{
 	border-top: none;
 }
@@ -2407,7 +2512,7 @@ a.street-start img{
 	}
 
 	.oh-pin.category-1, .oh-pin.category-7 , .oh-pin.category-13,
-	.oh-pin.category-15, .oh-pin.category-19, .oh-pin.category-23  {
+	.oh-pin.category-15, .oh-pin.category-19, .oh-pin.category-23, .oh-pin.category-42  {
 		background: none;
 		z-index: 1 !important;
 	}
@@ -2449,6 +2554,13 @@ a.street-start img{
 
 	.oh-pin.category-23:after {
 		content: url('../img/pin-dark-green.png');
+		position: relative;
+		bottom: 60px;
+		z-index: -1 !important;
+	}
+        
+        .oh-pin.category-42:after {
+		content: url('../img/pin-magenta.png');
 		position: relative;
 		bottom: 60px;
 		z-index: -1 !important;

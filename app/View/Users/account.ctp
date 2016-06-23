@@ -1,5 +1,5 @@
 <div class="login-box">
-<?php echo $this->Form->create('User', array('action' => 'account', 'class'=>'user-form'));?>
+<?php echo $this->Form->create('User', array('url'=>['action' => 'account'], 'class'=>'user-form'));?>
 	<fieldset>
 		<h2><?php echo __('My Account'); ?></h2>
 		<?php 
