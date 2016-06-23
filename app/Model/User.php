@@ -21,15 +21,15 @@ class User extends AppModel {
  * @var string
  */
 	public $displayField = 'email';
-
+	
 	public $authorizationRoles = array( // DB id => label
 		'0' => 'None',
 		's' => 'Super Administrator',
 		'r' => 'Researcher',
 		'f' => 'Facilitator',
-		'c' => 'Champion',
+                'c' => 'Champion',
 	);
-
+	
 	public $adminWhitelist = array( // role => controllers
 		's' => array(
 			'users',
@@ -42,6 +42,7 @@ class User extends AppModel {
 			'network_types',
 			'services',
 			'categories',
+                        'online_resources',
 			'pages',
 			'contacts',
 		),
@@ -56,15 +57,21 @@ class User extends AppModel {
 			'network_types',
 			'services',
 			'categories',
+                        'online_resources',
 			'pages',
 			'contacts',
 		),
 		'f' => array(
 			'users',
+			//'favourites',
+			//'responses',
+			//'network_members',
 			'services',
-			'services_edits'
+                        'services_edits',
+			//'categories',
+			//'contacts',
 		),
-		'c' => array(
+                'c' => array(
 			'services',
 		),
 	);
@@ -172,20 +179,19 @@ class User extends AppModel {
 			'finderQuery' => '',
 			'counterQuery' => ''
 		),
-		'ServiceEdit'
+                'ServiceEdit'
 	);
 
 // Generate/hash password on save.
 	public function beforeSave($options = array()) {
-
 		/*
 		 * Cannot assign a Facilitator to non-champion users
 		 */
 		if ($this->data['User']['role'] != 'c') {
 			$this->data['User']['facilitator_id'] = NULL;
 		}
-
-		if( !empty( $this->data['User']['password'] ) ){
+            
+                if( !empty( $this->data['User']['password'] ) ){
 			$this->data['User']['password'] = AuthComponent::password($this->data['User']['password']);
 		} else {
 			// Create a random password and send it to the user
@@ -197,7 +203,7 @@ class User extends AppModel {
 
 	function passwordsMatch($data) {
 		return ( $this->data['User']['password'] == $this->data['User']['password_confirm'] );
-	}
+    }
 
 	public function checkCurrentPassword($data) {
 		$this->id = AuthComponent::user('id');
@@ -216,23 +222,21 @@ class User extends AppModel {
 
 		return $md5;
 	}
-
+	
 	public function getRoles(){
 		return $this->authorizationRoles;
 	}
-
+	
 	public function getWhitelist( $role ){
 		return $this->adminWhitelist[$role];
 	}
-
+	
 	public function isAdminPermitted( $role, $controller ){
-		if(!isset($this->adminWhitelist[$role])) {
-			return false;
-		}
-		return in_array($controller, $this->adminWhitelist[$role]);
+		if( !isset( $this->adminWhitelist[$role] ) ) return false;
+		return in_array( $controller, $this->adminWhitelist[$role] );
 	}
-
-	public function getFacilitatorsList(){
+        
+        public function getFacilitatorsList(){
 		$data = $this->find('list',
 			array(
 				'fields' => array(
@@ -246,5 +250,4 @@ class User extends AppModel {
 		);
 		return $data;
 	}
-
 }
