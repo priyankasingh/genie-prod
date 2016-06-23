@@ -1,12 +1,12 @@
 <?php
 
 $config['Site'] = array(
-	'name' => 'EU-GENIE',
-	'slogan' => 'EU-GENIE - for your health',
-	'description' => 'EU-GENIE - For your health',
+	'name' => 'GENIE',
+	'slogan' => 'GENIE - for your health',
+	'description' => 'GENIE - For your health',
 	'url' => 'https://genie.soton.ac.uk',
-	'email_from' => array('no-reply@eu-genie.org' => 'EU-GENIE'),
-	'email_to' => array('info@eu-genie.org' => 'EU-GENIE'),
+	'email_from' => array('no-reply@eu-genie.org' => 'GENIE'),
+	'email_to' => array('info@eu-genie.org' => 'GENIE'),
 	'languages' => array(
 		'eng' => 'English',
 		'bul' => 'Bulgarian',
