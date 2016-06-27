@@ -3,13 +3,13 @@
 	
             <?php
             if( !empty( $parent_category )) echo $parent_category['Category']['description'];
-           // echo $parent_category['Category']['id'];
+           
             ?>
 	</div>
     
-       <!--
-        <? php
-        echo $this->element('category_filter',
+       
+        <?php
+        echo $this->element('category_filter_os',
                 array(
                         'sub_category_list' => isset($sub_category_list)?$sub_category_list:null,
                         'categories' => isset($categories)?$categories:null,
@@ -17,7 +17,7 @@
                         'selected_parent_slug' => isset($selected_parent_slug)?$selected_parent_slug:null,
                 )
         );
-        ?>  -->
+        ?> 
 
 <div class="aside">
     <a class="print" href="#"><?php echo __('Print Your results'); ?></a>

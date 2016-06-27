@@ -80,6 +80,66 @@ class OnlineResourcesController extends AppController {
             $this->set('onlineResource', $this->OnlineResource->Category->find('all',
                 ['conditions' => ['Category.id' => $catId]]));
         }
+        
+        //Add category desription]
+        $selected_parent_id = null;
+
+        if($selected_parent_slug){
+            
+            //$this->loadModel('Service');
+            $selected_parent_id = $this->OnlineResource->Category->getIdFromSlug($selected_parent_slug);
+			
+          
+            if($selected_parent_id){
+                $conditions['Category.parent_id'] = $selected_parent_id;
+                $sub_category_list = $this->OnlineResource->Category->getChildrenOfCategoryWithId($selected_parent_id);
+
+                $this->set( 'parent_category', $this->OnlineResource->Category->read(array('id','name','description'), $selected_parent_id) );
+            }
+            $joins = array(
+                    array(
+                            'table'=>'categories_online_resources',
+                            'alias'=>'CategoriesOnlineResources',
+                            'type'=>'inner',
+                            'conditions'=>array(
+                                    'OnlineResource.id = CategoriesOnlineResources.online_resource_id',
+                            ),
+                    ),
+                    array(
+                            'table'=>'categories',
+                            'alias'=>'Category',
+                            'type'=>'inner',
+                            'conditions'=>array(
+                                    'CategoriesOnlineResources.category_id = Category.id',
+                            ),
+                    ),
+            );
+            
+            
+            
+            //Add Sub category filter
+            
+            $selected_category_id = null;
+            
+            if($selected_category_slug){
+		$selected_category_id = $this->OnlineResource->Category->getIdFromSlug($selected_category_slug);
+                    
+            }
+            
+            if($selected_category_slug){
+		$selected_category_id = $this->OnlineResource->Category->getIdFromSlug($selected_category_slug);
+            }
+            
+            if($selected_category_id){
+		$conditions['Category.id'] = $selected_category_id;
+            }
+            
+            $sub_category_list = $this->OnlineResource->Category->getChildrenOfCategoryWithId($selected_parent_id);
+                
+            //Get list of categories
+            $categories = $this->OnlineResource->Category->find('list');
+            $this->set(compact('categories','selected_parent_id','service','selected_parent_slug','sub_category_list','selected_category_id'));
+        }
           
         
     }
