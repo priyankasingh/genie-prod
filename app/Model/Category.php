@@ -143,6 +143,21 @@ class Category extends AppModel {
 			'finderQuery' => '',
 			'deleteQuery' => '',
 			'insertQuery' => ''
+		),
+                'OnlineResource' => array(
+			'className' => 'OnlineResource',
+			'joinTable' => 'categories_online_resources',
+			'foreignKey' => 'category_id',
+			'associationForeignKey' => 'online_resource_id',
+			'unique' => 'keepExisting',
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'finderQuery' => '',
+			'deleteQuery' => '',
+			'insertQuery' => ''
 		)
 	);
 

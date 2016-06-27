@@ -227,7 +227,9 @@
 						</div>
 					</div>
 					<ul id="nav">
-						<?php foreach($parent_categories as $parent_category):?>
+						<?php 
+                                                    $i = 0;
+                                                    foreach($parent_categories as $parent_category):?>
 						<?php
 							$class = 'category-'.$parent_category['Category']['id'];
 							if(isset($selected_parent_id) && $selected_parent_id == $parent_category['Category']['id']){
@@ -236,6 +238,26 @@
 						?>
 						<li class="<?php echo $class;?>">
 							<?php echo $this->Html->link( $parent_category['Category']['name'], array('controller'=>'services', 'action'=>'index', $parent_category['Category']['slug']), array('class'=>'ajax') );
+                                                            if (++$i == 6) break;
+                                                        ?>
+						</li>
+						<?php endforeach;?>
+                                            
+                                                <?php foreach($parent_categories as $parent_category):?>
+                                                <?php
+							$class = 'category-'.$parent_category['Category']['id'];
+							if(isset($selected_parent_id) && $selected_parent_id == $parent_category['Category']['id']){
+								$class .= ' active';
+							}
+						?>
+						<li class="<?php echo $class;?>">
+							<?php 
+                                                            
+                                                            if ($parent_category['Category']['name']=="Online support")
+                                                            {
+                                                        
+                                                                echo $this->Html->link( $parent_category['Category']['name'], array('controller'=>'onlineResources', 'action'=>'index', $parent_category['Category']['slug']) );
+                                                            }  
                                                         ?>
 						</li>
 						<?php endforeach;?>

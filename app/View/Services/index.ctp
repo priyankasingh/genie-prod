@@ -132,14 +132,14 @@
 	<?php if(!AuthComponent::user('id')): ?>
 	<div id="favourites-action-wrapper">
 		<div id="favourites-action">
-			<h2><?php echo __('Already have a EUGENIE account?'); ?></h2>
+			<h2><?php echo __('Already have a GENIE account?'); ?></h2>
 			<strong><?php echo __('Log In below to add favourites'); ?></strong>
 			<?php echo $this->element('login-form'); ?>
 
-			<h2><?php echo __("Don't have an account? Fill in the EUGENIE questionnaire..."); ?></h2>
+			<h2><?php echo __("Don't have an account? Fill in the GENIE questionnaire..."); ?></h2>
 			<strong><?php echo __('Put in your email address when taking the questionnaire to automatically set up an account.'); ?></strong>
 			<div class="btn-holder">
-				<a href="/#questionnaire" class="btn question-button" ><?php echo __('Fill in the EUGENIE questionnaire...'); ?></a>
+				<a href="/#questionnaire" class="btn question-button" ><?php echo __('Fill in the GENIE questionnaire...'); ?></a>
 			</div>
 		</div>
 	</div>
