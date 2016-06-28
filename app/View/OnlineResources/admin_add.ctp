@@ -1,5 +1,10 @@
+<?php
+/* display message saved in session if any */
+echo $this->Session->flash();
+?>
+
 <div class="responses form">
-<?php echo $this->Form->create('OnlineResource'); ?>
+<?php echo $this->Form->create('OnlineResource', array('type'=>'file')); ?>
 	<fieldset>
 		<legend><?php echo __('Admin Add Online Resource'); ?></legend>
 	<?php
@@ -8,6 +13,7 @@
 		echo $this->Form->input('url');
 		echo $this->Form->input('description');
                 echo $this->Form->input('Category');
+                echo $this->Form->input('image', array('type'=>'file'));
 		?>
 	</fieldset>
 	<fieldset>
